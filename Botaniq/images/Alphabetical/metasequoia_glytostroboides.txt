@@ -1,0 +1,9 @@
+Scientific classification
+Kingdom:	Plantae
+Division:	Pinophyta
+Class:	Pinopsida
+Order:	Pinales
+Family:	Cupressaceae
+Subfamily:	Sequoioideae
+Genus:	Metasequoia
+Species:	M. glyptostroboides

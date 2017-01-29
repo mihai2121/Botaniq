@@ -1,0 +1,7 @@
+Kingdom:	Plantae
+(unranked):	Angiosperms
+(unranked):	Eudicots
+Order:	Buxales
+Family:	Buxaceae
+Genus:	Buxus
+Species:	B. sempervirens
