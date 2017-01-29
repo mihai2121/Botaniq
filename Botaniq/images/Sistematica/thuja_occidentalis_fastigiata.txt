@@ -1,0 +1,7 @@
+Kingdom:	Plantae
+Division:	Pinophyta
+Class:	Pinopsida
+Order:	Pinales
+Family:	Cupressaceae
+Genus:	Thuja
+Species:	T. occidentalis

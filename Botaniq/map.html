@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Map</title>
+    <style>
+      #map {
+        height: 100%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .title {
+        font-weight: bold;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+	<div id="infowindow1"></div>
+
+    <script>
+
+      function initMap() {
+	var origin = {lat: 47.1856225908, lng: 27.55393};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: origin
+        });
+	var sistematicaCoords = [
+	{lat: 47.18627827934759, lng: 27.55788445472717},
+	{lat: 47.18650066961438, lng: 27.55773961544037},
+	{lat: 47.18603765932099, lng: 27.55621612071991},
+	{lat: 47.1855491243965, lng: 27.554574608802795},
+	{lat: 47.185337667587234, lng: 27.554638981819153},
+	{lat: 47.18457204105923, lng: 27.555094957351685},
+	{lat: 47.18376265243688, lng: 27.555840611457825},
+	{lat: 47.18382463308302, lng: 27.556377053260803},
+	{lat: 47.18418922365428, lng: 27.55667209625244},
+	{lat: 47.18457933279251, lng: 27.558023929595947},
+	{lat: 47.18492933481314, lng: 27.557798624038693},
+	{lat: 47.18483818867583, lng: 27.557541131973267},
+	{lat: 47.185490791567744, lng: 27.55720317363739},
+	{lat: 47.185567353392365, lng: 27.557492852211},
+	{lat: 47.18608140849786, lng: 27.55721390247345},
+	{lat: 47.18627827934759, lng: 27.55788445472717}
+	];
+
+	var sistematicaSectionMap = new google.maps.Polygon();
+	
+	var fitogeograficaCoords = [
+	{lat: 47.18683972183463, lng: 27.555770874023438},
+	{lat: 47.18920209009215, lng: 27.554526329040527},
+	{lat: 47.189581225823545, lng: 27.552766799926758},
+	{lat: 47.19000410479048, lng: 27.552573680877686},
+	{lat: 47.189843702820355, lng: 27.552015781402588},
+	{lat: 47.18912917906409, lng: 27.55167245864868},
+	{lat: 47.18806466664838, lng: 27.552788257598873},
+	{lat: 47.18676680756146, lng: 27.555105686187744},
+	{lat: 47.18683972183463, lng: 27.555770874023438}
+	];
+
+	var fitogeograficaSectionMap = new google.maps.Polygon();
+
+	var complexuldeSereCoords = [
+	{lat: 47.18651889828346, lng: 27.55772352218628},
+	{lat: 47.186949093056604, lng: 27.55742847919464},
+	{lat: 47.18686524180659, lng: 27.556870579719543},
+	{lat: 47.18676680756146, lng: 27.55591034889221},
+	{lat: 47.18605588814907, lng: 27.55621075630188},
+	{lat: 47.18651889828346, lng:  27.55772352218628}
+	];
+
+	var complexuldeSereSectionMap = new google.maps.Polygon();
+
+	var florasiVegetatiaCoords = [
+	{lat: 47.18802091910611, lng: 27.552638053894043},
+	{lat: 47.19067487141339, lng: 27.549870014190674},
+	{lat: 47.18994577685743, lng: 27.545921802520752},
+	{lat: 47.18809383165656, lng: 27.54725217819214},
+	{lat: 47.186898053181054, lng: 27.545213699340817},
+	{lat: 47.18628557084652, lng: 27.544527053833008},
+	{lat: 47.18492933481314, lng: 27.54617929458618},
+	{lat: 47.18414182702163, lng: 27.546544075012207},
+	{lat: 47.183777236124826, lng: 27.547295093536377},
+	{lat: 47.18202716496488, lng: 27.547810077667236},
+	{lat: 47.18093334119331, lng: 27.547788619995117},
+	{lat: 47.180772911811815, lng: 27.54894733428955},
+	{lat: 47.18002909652704, lng: 27.549355030059814},
+	{lat: 47.18007285065578, lng: 27.55019187927246},
+	{lat: 47.18473975067177, lng: 27.54946231842041},
+	{lat: 47.18517725151486, lng: 27.549827098846432},
+	{lat: 47.18542516705875, lng: 27.55064249038696},
+	{lat: 47.18608140849786, lng: 27.55070686340332},
+	{lat: 47.187335536236034, lng: 27.55143642425537},
+	{lat: 47.18791884136719, lng: 27.551414966583252},
+	{lat: 47.18802091910611, lng: 27.552638053894043}
+	];
+
+	var florasiVegetatiaSectionMap = new google.maps.Polygon();
+
+	var silvostepaCoords = [ 
+	{lat: 47.189275001020064, lng: 27.554537057876587},
+	{lat: 47.189515606371536, lng: 27.55422592163086},
+	{lat: 47.189960358846704, lng: 27.554161548614502},
+	{lat: 47.190120760464296, lng: 27.554397583007812},
+	{lat: 47.190820689122695, lng: 27.55441904067993},
+	{lat: 47.191083159989866, lng: 27.554290294647217},
+	{lat: 47.19175391297537, lng: 27.554397583007812},
+	{lat: 47.191928890620886, lng: 27.55420446395874},
+ 	{lat: 47.19150602699, lng: 27.549891471862793},
+	{lat: 47.19115606833372, lng: 27.549870014190674},
+	{lat: 47.19105399662427, lng: 27.5492262840271},
+	{lat: 47.19055821695748, lng: 27.548818588256836},
+	{lat: 47.19079152561286, lng: 27.549848556518555},
+	{lat: 47.18924583666092, lng: 27.551543712615963},
+	{lat: 47.18990203086556, lng: 27.551887035369873},
+	{lat: 47.19007701461665, lng: 27.55248785018921},
+	{lat: 47.189668718300034, lng: 27.552874088287354},
+	{lat: 47.189275001020064, lng: 27.554537057876587}
+	];
+
+	var silvostepaSectionMap = new google.maps.Polygon();
+
+	var biologicaCoords = [ 
+	{lat: 47.1860668254429, lng: 27.55616784095764},
+	{lat: 47.18559287397601, lng: 27.554579973220825},
+	{lat: 47.18608870002382, lng: 27.554322481155396},
+	{lat: 47.18537412571791, lng: 27.550771236419678},
+	{lat: 47.18603765932099, lng: 27.550835609436035},
+	{lat: 47.187277205370386, lng: 27.551565170288086},
+	{lat: 47.1878750937047, lng: 27.551565170288086},
+	{lat: 47.18799904532142, lng: 27.55273461341858},
+	{lat: 47.18690534459488, lng: 27.554547786712646},
+	{lat: 47.18667201885658, lng: 27.555073499679565},
+	{lat: 47.18677409899327, lng: 27.555835247039795},
+	{lat: 47.1860668254429, lng: 27.55616784095764}
+	];
+	
+	var biologicaSectionMap = new google.maps.Polygon();
+
+	var planteUtileCoords = [
+	{lat: 47.1845683951922, lng: 27.555052042007446},
+	{lat: 47.18531214688087, lng: 27.55459606647491},
+	{lat: 47.18552724959323, lng: 27.554526329040527},
+	{lat: 47.18544704190409, lng: 27.554140090942383},
+	{lat: 47.18523558468819, lng: 27.553904056549072},
+	{lat: 47.184980376581656, lng: 27.553657293319702},
+	{lat: 47.1847907926226, lng: 27.553587555885315},
+	{lat: 47.18439339328048, lng: 27.55349099636078},
+	{lat: 47.183995990963375, lng: 27.553625106811523},
+	{lat: 47.18384286267105, lng: 27.55372166633606},
+	{lat: 47.1845683951922, lng: 27.555052042007446}
+	];
+
+	var planteUtileSectionMap = new google.maps.Polygon();
+
+	var dendrariumCoords = [
+	{lat: 47.185556415995585, lng: 27.554537057876587},
+	{lat: 47.1854616251293, lng: 27.55409717559814},
+	{lat: 47.185038709971344, lng: 27.553635835647583},
+	{lat: 47.184455373190175, lng: 27.55346417427063},
+	{lat: 47.18398869914995, lng: 27.553550004959106},
+	{lat: 47.18380640348871, lng: 27.55367875099182},
+	{lat: 47.18282199610088, lng: 27.553539276123047},
+	{lat: 47.18253760834599, lng: 27.55374312400818},
+	{lat: 47.18238447584699, lng: 27.553625106811523},
+	{lat: 47.18174277295223, lng: 27.55396842956543},
+	{lat: 47.181385457751254, lng: 27.553914785385132},
+	{lat: 47.180572374403205, lng: 27.552895545959473},
+	{lat: 47.17942018115947, lng: 27.55370557308197},
+	{lat: 47.178329949972905, lng: 27.551055550575253},
+	{lat: 47.179347256695095, lng: 27.550513744354248},
+	{lat: 47.179369134044926, lng: 27.55070149898529},
+	{lat: 47.18008014300708, lng: 27.550513744354248},
+	{lat: 47.18008014300708, lng: 27.550277709960938},
+	{lat: 47.18452829063838, lng: 27.549591064453125},
+	{lat: 47.184754334091274, lng: 27.549612522125244},
+	{lat: 47.185133501592816, lng: 27.54990220069885},
+	{lat: 47.186030367787986, lng: 27.554301023483276},
+	{lat: 47.185556415995585, lng: 27.554537057876587}
+	];
+        
+	var dendrariumSectionMap = new google.maps.Polygon();
+	
+	var ornamentalaCoords = [
+	{lat: 47.1869600301664, lng: 27.55741238594055},
+	{lat: 47.18679597328275, lng: 27.555899620056152},
+	{lat: 47.18857140638554, lng: 27.55497694015503},
+	{lat: 47.18866619169858, lng: 27.555341720581055},
+	{lat: 47.188950546622024, lng: 27.555363178253174},
+	{lat: 47.18914011572468, lng: 27.555245161056515},
+	{lat: 47.189300519821174, lng: 27.55590498447418},
+	{lat: 47.1869600301664, lng: 27.55741238594055}
+	];
+
+	var ornamentalaSectionMap = new google.maps.Polygon();
+
+	var rosariumCoords = [ 
+	{lat: 47.18423662024465, lng: 27.555271983146667},
+	{lat: 47.18452829063838, lng: 27.555073499679565},
+	{lat: 47.18382827900112, lng: 27.55375385284424},
+	{lat: 47.18284387201892, lng: 27.553614377975464},
+	{lat: 47.18255948438124, lng: 27.553807497024536},
+	{lat: 47.18347462377884, lng: 27.555132508277893},
+	{lat: 47.18381004940808, lng: 27.55483746528625},
+	{lat: 47.18423662024465, lng: 27.555271983146667}
+	];
+	
+	var rosariumSectionMap = new google.maps.Polygon();
+
+	/*rosariumSectionMap.setMap(map);
+	ornamentalaSectionMap.setMap(map);
+	dendrariumSectionMap.setMap(map);
+	planteUtileSectionMap.setMap(map);
+	biologicaSectionMap.setMap(map);
+	silvostepaSectionMap.setMap(map);
+	florasiVegetatiaSectionMap.setMap(map);
+	complexuldeSereSectionMap.setMap(map);
+	fitogeograficaSectionMap.setMap(map);
+	sistematicaSectionMap.setMap(map);*/
+        setMarkers(map);
+	
+	var polygonArray = [
+		[rosariumSectionMap, rosariumCoords, '#0ea303', 47.1835079877288, 27.554455712966956],
+		[ornamentalaSectionMap, ornamentalaCoords, '#0e04e5', 47.187766274826224, 27.556236699752844], 
+		[dendrariumSectionMap, dendrariumCoords, '#00fab3', 47.18266212291489, 27.55213828437809], 
+		[planteUtileSectionMap, planteUtileCoords, '#ddf907', 47.1845871749933, 27.554026559524573],
+		[biologicaSectionMap, biologicaCoords, '#f6b200', 47.18624966379308, 27.554455712966956], 
+		[silvostepaSectionMap, silvostepaCoords, '#7b38d3', 47.191091001229736, 27.552009538345374], 
+		[florasiVegetatiaSectionMap, florasiVegetatiaCoords, '#d507a8', 47.18560800761904, 27.548232988052405], 
+		[complexuldeSereSectionMap, complexuldeSereCoords, '#ee0505', 47.18658507188804, 27.55688042991642], 
+		[fitogeograficaSectionMap, fitogeograficaCoords, '#8e0000', 47.18890370466426, 27.553425744705237], 
+		[sistematicaSectionMap, sistematicaCoords, '#8e0000', 47.18501009374856, 27.5563547169495]
+	];
+	var addListenerOnPolygon = function(polygon) {
+	  google.maps.event.addListener(polygon, 'click', function (event) {
+		map.setZoom(17);	
+		map.setCenter(polygon.position);
+		polygon.setMap(null);
+	  });
+	  google.maps.event.addListener(polygon, 'mouseover', function (event) {
+		map.getTitle(this.title);
+		polygon.setVisible(true);
+	  });
+	}
+	for (var i = 0; i < polygonArray.length; i++) {
+		var pol = polygonArray[i];
+	   var p = new google.maps.Polygon({
+		position: {lat: pol[3], lng: pol[4]},
+		title: pol[0],
+		paths: pol[1],
+		fillColor: pol[2],
+		strokeColor: pol[2],
+		map: map
+	   });
+	   p.setMap(map);
+	
+	addListenerOnPolygon(p);
+	}
+      }
+	
+	var trees = [
+	  [1, 47.18637361920545, 27.55769313924793, 'Metasequoia_glyptostroboides', '<img src="Images/Sistematica/metasequoia_glytostroboides.jpg">', 18],	
+	  [2, 47.18591425357872, 27.556515649490393, 'Thuja_occidentalis', '<img src="Images/Sistematica/thuja_occidentalis_fastigiata1.jpg">', 20],
+	  [3, 47.18581217178845, 27.557113782100714, 'Buxus_sempervirens', '<img src="Images/Sistematica/buxus_sempervirens.jpg">', 19],
+	  [4, '47.18533457223351', '27.55513699405674', 'Quercus_ilex', '<img src="Images/Sistematica/quercus_ilex.jpg">', 17],
+	  [5, '47.18549863363385', '27.556526378326453', 'Chestnut', '<img src="Images/Sistematica/chestnut.jpg">', 16],
+	  [6, '47.1867965237283', '27.55711646430973', 'Ficus_deltoidea', '<img src="Images/ComplexulDeSere/ficus_deltoidea.jpg">', 17],
+	  [7, '47.186300704292066', '27.556665853195227', 'Ficus_neriifolia', '<img src="Images/ComplexulDeSere/ficus_neriifolia.jpg">', 18],
+	  [8, '47.18666527785764', '27.556150869064368', 'Cordyline_fruticosa', '<img src="Images/ComplexulDeSere/cordyline_fruticosa.jpg">', 16],
+	  [11, '47.18619862324495', '27.556295708351172', 'Ceratozamia_mexicana', '<img src="Images/ComplexulDeSere/ceratozamia_mexicana.jpg">', 17],
+	  [12, '47.18698610052409', '27.55713255756382', 'Taxus_baccata', '<img src="Images/Ornamentala/taxus_baccata.jpg">', 16],
+	[13, '47.18688766650307', '27.555936292343176', 'Yucca', '<img src="Images/Ornamentala/yucca.jpg">', 17],
+	[14, '47.187077242973366', '27.555925563507117', 'Magnolia_kobus', '<img src="Images/Ornamentala/magnolia_kobus.jpg">', 15],
+	[15, '47.18709911713789', '27.556247428588904', 'Magnolia_×_soulangeana', '<img src="Images/Ornamentala/magnolia_x_soulangeana.jpg">', 17],
+	[16, '47.18716838526615', '27.556698039703406', 'Viburnum_rhytidophyllum', '<img src="Images/Ornamentala/viburnum_rhytidophyllum.jpg">', 19],
+	[17, '47.18466373812116', '27.554021195106543', 'Ailanthus_altissima', '<img src="Images/PlanteUtile/ailanthus_altissima.jpg">', 17],
+	[18, '47.1808974305195', '27.55259962432865', 'Elaeagnus_angustifolia', '<img src="Images/Dendrarium/elaeagnus_angustifolia.jpg">', 17],
+	[19, '47.18327829301315', '27.55230458133701', 'Populus_alba', '<img src="Images/Dendrarium/populus_alba.jpg">', 16],
+	[20, '47.18410591851803', '27.55058260314945', 'Acer_campestre', '<img src="Images/Dendrarium/acer_campestre.jpg">', 16],
+	[21, '47.180459894404876', '27.550968841247595', 'Pinus_nigra', '<img src="Images/Dendrarium/pinus_nigra.jpg">', 16],
+	[22, '47.18489342684225', '27.552771285705603', 'Salix_babylonica', '<img src="Images/Dendrarium/salix_babylonica.jpg">', 17],
+	[23, '47.191003511097875', '27.550475314788855', 'Ulmus_minor', '<img src="Images/Silvostepa/ulmus_minor.jpg">', 17],
+	[24, '47.190084856005214', '27.551204875640906', 'Abies_alba', '<img src="Images/Silvostepa/abies_alba.jpg">', 17],
+	[25, '47.19095976597784', '27.55210609786991', 'Carpinus_betulus', '<img src="Images/Silvostepa/carpinus_betulus.jpg">', 16],
+	[26, '47.18891828693986', '27.548501208953894', 'Downy_oak', '<img src="Images/FloraSiVegetatia/downy_oak.jpg">', 16],
+	[27, '47.18664340351435', '27.54635544174198', 'Prunus_tenella', '<img src="Images/FloraSiVegetatia/prunus_tenella.jpg">', 17],
+	[28, '47.1831433924789', '27.548672870330847', 'Acer_monspessulanum', '<img src="Images/FloraSiVegetatia/acer_monspessulanum.jpg">', 16],
+	[29, '47.18133496302842', '27.5488445317078', 'Scots_pine', '<img src="Images/FloraSiVegetatia/scots_pine.jpg">', 17],
+	[30, '47.18731421260912', '27.54759998672489', 'Betula_pendula', '<img src="Images/FloraSiVegetatia/betula_pendula.jpg">', 16],
+	];
+
+	var flowers = [
+	[1, 47.18592154512763, 27.556912616424597, 'Ranunculus_abortivus', '<img src="Images/Sistematica/ranunculus_abortivus.jpg">', 16],
+	[2, 47.185403842664385, 27.556665853195227, 'Ranunculus_acaulis', '<img src="Images/Sistematica/ranunculus_acaulis.jpg">', 18],
+	[4, '47.1846382170908', '27.55707354896549', 'Verbascum', '<img src="Images/Sistematica/verbascum.jpg">', 15],
+	[5, '47.185061135439476', '27.55710573547367', 'Buddleia', '<img src="Images/Sistematica/buddleia.jpg">', 18],
+	[6, '47.18565175715004', '27.556783870391882', 'Diascia_(plant)', '<img src="Images/Sistematica/diascia.jpg">', 17],
+	[8, '47.18546946719973', '27.555979207687415', 'Lilium', '<img src="Images/Sistematica/lilium.jpg">', 19],
+	[9, '47.18497363536792', '27.555442765884436', 'Dianthus', '<img src="Images/Sistematica/dianthus.jpg">', 16],
+	[10, '47.186380910691305', '27.556960896186865', 'Aucuba_japonica', '<img src="Images/ComplexulDeSere/aucuba_japonica.jpg">', 16],
+	[11, '47.186424659585285', '27.557288125686682', 'Codiaeum_variegatum', '<img src="Images/ComplexulDeSere/codiaeum variegatum.jpg">', 17],
+	[12, '47.18659600907284', '27.556944802932776', 'Encephalartos_ferox', '<img src="Images/ComplexulDeSere/encephalartos_ferox.jpg">', 15],
+	[13, '47.18642830532482', '27.556166962318457', 'Stangeria', '<img src="Images/ComplexulDeSere/stangeria.jpg">', 17],
+	[16, '47.18701526612487', '27.55611868255619', 'Narcissus_(plant)', '<img src="Images/Ornamentala/narcissus_(plant).jpg">', 16],
+	[17, '47.18745274821381', '27.556917980842627', 'Rhus_typhina', '<img src="Images/Ornamentala/rhus_typhina.jpg">', 15],
+	[18, '47.18716838526615', '27.55580754631046', 'Gladiolus', '<img src="Images/Ornamentala/gladiolus.jpg">', 16],
+	[19, '47.187751692234144', '27.555796817474402', 'Gladiolus_alatus', '<img src="Images/Ornamentala/gladiolus_alatus.jpg">', 17],
+	[20, '47.18780637693374', '27.555491045646704', 'Gladiolus_carneus', '<img src="Images/Ornamentala/gladiolus_carneus.jpg">', 16],
+	[21, '47.187470976555915', '27.555759266548193', 'Gladiolus_communis', '<img src="Images/Ornamentala/gladiolus_communis.jpg">', 18],
+	[22, '47.18781731386692', '27.55634398811344', 'Peony', '<img src="Images/Ornamentala/peony.jpg">', 15],
+	[23, '47.18820739634274', '27.556515649490393', 'Chrysanthemum', '<img src="Images/Ornamentala/chrysanthemum.jpg">', 19],
+	[24, '47.18849539932169', '27.55612941139225', 'Ismelia', '<img src="Images/Ornamentala/ismelia.jpg">', 16],
+	[25, '47.18871778029953', '27.55559296958927', 'Glebionis_coronaria', '<img src="Images/Ornamentala/glebionis_coronaria.jpg">', 17],
+	[26, '47.18832405596553', '27.55531938426975', 'Glebionis_segetum', '<img src="Images/Ornamentala/glebionis_segetum.jpg">', 16],
+	[27, '47.183562676800314', '27.55480440013889', 'Rosa_chinensis', '<img src="Images/Rosarium/rosa_chinensis.jpg">', 15],
+	[28, '47.183285584924185', '27.55461128108982', 'Rosa_acicularis', '<img src="Images/Rosarium/rosa_acicularis.jpg">', 16],
+	[29, '47.18351892554758', '27.554407433204688', 'Rosa_×_alba', '<img src="Images/Rosarium/rosa_alba.jpg">', 17],
+	[30, '47.18316891422785', '27.554171398811377', 'Rosa_banksiae', '<img src="Images/Rosarium/rosa_banksiae.jpg">', 17],
+	[31, '47.18300849160175', '27.55434306018833', 'Rosa_×_damascena', '<img src="Images/Rosarium/rosa_damascena.jpg">', 18],
+	[32, '47.18388351821844', '27.55407483928684', 'Rosa_minutifolia', '<img src="Images/Rosarium/rosa_minutifolia.jpg">', 17],
+	[33, '47.184539778715916', '27.55456836574558', 'Ephedra_distachya', '<img src="Images/PlanteUtile/ephedra_distachya.jpg">', 16],
+	[34, '47.184984572884744', '27.553763703041113', 'Ribwort_plantain', '<img src="Images/PlanteUtile/ribwort_plantain.jpg">', 16],
+	[35, '47.1844158190212', '27.553645685844458', 'Primula_veris', '<img src="Images/PlanteUtile/primula_veris.jpg">', 17],
+	[36, '47.18415331518279', '27.553978279762305', 'Achillea_millefolium', '<img src="Images/PlanteUtile/achillea_millefolium.jpg">', 17], 
+	[37, '47.18508665626649', '27.55436451786045', 'Artemisia_absinthium', '<img src="Images/PlanteUtile/artemisia_absinthium.jpg">', 16],
+	[38, '47.182501698757314', '27.551011756591834', 'Amorpha_fruticosa', '<img src="Images/Dendrarium/amorpha_fruticosa.jpg">', 17],
+	[39, '47.18626424679777', '27.555539325408972', 'Anemone_nemorosa', '<img src="Images/Biologica/anemone_nemorosa.jpg">', 16],
+	[40, '47.18657048897145', '27.554294780426062', 'Paeonia_officinalis', '<img src="Images/Biologica/paeonia_officinalis.jpg">', 17],
+	[41, '47.18624966379305', '27.553479388885535', 'Delphinium_elatum', '<img src="Images/Biologica/delphinium_elatum.jpg">', 17],
+	[42, '47.18639549365999', '27.551762775116003', 'Consolida_regalis', '<img src="Images/Biologica/consolida_regalis.jpg">', 16],
+	[43, '47.18735796073386', '27.55208464019779', 'Narcissus_poeticus',  '<img src="Images/Biologica/narcissus_poeticus.jpg">', 16],
+	[44, '47.186745483706055', '27.55264253967289', 'Hemerocallis_fulva', '<img src="Images/Biologica/hemerocallis_fulva.jpg">', 16],
+	[45, '47.18728504717256', '27.554959968261755', 'Ageratum', '<img src="Images/Fitogeografica/ageratum.jpg">', 16],
+	[46, '47.188393322495266', '27.553264812164343', 'Eschscholzia', '<img src="Images/Fitogeografica/eschscholzia.jpg">', 16],
+	[47, '47.18811625583402', '27.55435915344242', 'Portulaca', '<img src="Images/Fitogeografica/portulaca.jpg">', 17],
+	[48, '47.18884537552191', '27.55405874603275', 'Crocosmia', '<img src="Images/Fitogeografica/crocosmia.jpg">', 18],
+	[49, '47.18937033549547', '27.552900031738318', 'Gazania', '<img src="Images/Fitogeografica/gazania.jpg">', 16],
+	[50, '47.189064109475254', '27.55210609786991', 'Pelargonium', '<img src="Images/Fitogeografica/pelargonium.jpg">', 16],
+	[51, '47.19128056268747', '27.553457931213416', 'Iris_brandzae', '<img src="Images/Silvostepa/iris_brandzae.jpg">', 16],
+	[52, '47.1903473305114', '27.5523206745911', 'Glyceria_fluitans', '<img src="Images/Silvostepa/glyceria_fluitans.jpg">', 17],
+	[53, '47.19017234765151', '27.55330772750858', 'Carex_riparia', '<img src="Images/Silvostepa/carex_riparia.jpg">', 16],
+	[54, '47.18454342458493', '27.5488445317078', 'Syringa_josikaea', '<img src="Images/FloraSiVegetatia/syringa_josikaea.jpg">', 16],
+	[55, '47.187168385266204', '27.549016193084753', 'Ruscus_aculeatus', '<img src="Images/FloraSiVegetatia/ruscus_aculeatus.jpg">', 17],
+	];
+	
+	var infowindow = new google.maps.InfoWindow();
+
+	function setMarkers(map, map_bounds) {
+	 var markers = [];
+	  var imageTree = {
+		url: 'Icons/tree.png',
+		size: new google.maps.Size(25, 25),
+		origin: new google.maps.Point(0, 0)
+	  };
+	  
+	  for (var i = 0; i < trees.length; i++) {
+		var tree = trees[i];
+		var link = '<a href=https://en.wikipedia.org/wiki/' + tree[3] + '>'+ tree[3] +'</a>';
+		var myLatLng = new google.maps.LatLng(tree[1], tree[2]);
+		var treeMarker = new google.maps.Marker({
+		  position: myLatLng,
+		  map: map,
+		  visible: false,
+		  icon: imageTree,
+		  draggable: false,
+		  title: tree[3],
+		  id: tree[0],
+		  photo: tree[4],
+		  link: link,
+		  zoom: tree[5]
+		});
+	  	markers.push(treeMarker);
+		var infowindow = new google.maps.InfoWindow();
+
+	  google.maps.event.addListener(treeMarker,'click', function() {
+		var contentString = '<div id="content">'+
+            '<h4 id="firstHeading" class="firstHeading">' + this.title + '</h4>'+
+	    '<div id="moreContent">'+
+            '</div>'+
+            '<div id="bodyContent">'+
+            '<p>' + this.photo + '</p>'+
+	    '<p> Link: ' + this.link + '</p>'+
+            '</div>'+
+            '</div>';
+		map.panTo(this.position);
+		infowindow.setContent(contentString);
+		infowindow.open(map, this);
+		
+	  });
+	}
+	
+	var imageFlower = {
+		url: 'Icons/flower.png',
+		size: new google.maps.Size(25, 25),
+		origin: new google.maps.Point(0, 0)
+	  };
+	for (var i = 0; i < flowers.length; i++) {
+		var flower = flowers[i];
+		var link = '<a href=https://en.wikipedia.org/wiki/' + flower[3] + '>'+ flower[3] +'</a>';
+		var myLatLng = new google.maps.LatLng(flower[1], flower[2]);
+		var flowerMarker = new google.maps.Marker({
+		  position: myLatLng,
+		  map: map,
+		  visible: false,
+		  icon: imageFlower,
+		  draggable:false,
+		  title: flower[3],
+		  id: flower[0],
+		  photo: flower[4],
+		  link: link,
+		  zoom: flower[5]
+		});
+		markers.push(flowerMarker);
+	var infowindow = new google.maps.InfoWindow()
+		
+	  google.maps.event.addListener(flowerMarker,'click', function() {
+		var content = "ID: " + this.id + ", Position: " + this.position + ", Name: " + this.title + ", Description: " + this.photo
+		var contentString = '<div id="content">'+
+            '<h4 id="firstHeading" class="firstHeading">' + this.title + '</h4>'+
+	    '<div id="moreContent">'+
+            '</div>'+
+            '<div id="bodyContent">'+
+            '<p>' + this.photo + '</p>'+
+	    '<p> Link: ' + this.link + '</p>'+
+            '</div>'+
+            '</div>';
+		map.panTo(this.position);
+		//map.setZoom(16);
+		infowindow.setContent(contentString);
+		infowindow.open(map, this);
+		
+	  });
+	}
+	google.maps.event.addListener(map, 'zoom_changed', function() {
+	  var i, prevZoomLevel;
+	  for (i = 0; i < markers.length; i++) {
+	    prevZoomLevel = markers[i].zoom;
+	    if (map.getZoom() == prevZoomLevel) {
+		markers[i].setVisible(markers[i].true);
+	    } 
+	  }
+	});
+    }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjvVyf0a2qiiACh32QSPMEIQU5AHcYmXM&callback=initMap">
+    </script>
+  </body>
+</html>
