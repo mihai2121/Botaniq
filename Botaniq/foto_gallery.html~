@@ -40,13 +40,14 @@
 	</div><!--close menu_container-->	
     
 	<div id="site_content">   
+
 	  <table style="width:100%">
 	    <tr>
-		<th><a href="images/Biologica/anemone_nemorosa.jpg"><img src="images/Biologica/anemone_nemorosa_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Biologica/consolida_regalis.jpg"><img src="images/Biologica/consolida_regalis_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Biologica/delphinium_elatum.jpg"><img src="images/Biologica/delphinium_elatum_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Biologica/hemerocallis_fulva.jpg"><img src="images/Biologica/hemerocallis_fulva_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Biologica/narcissus_poeticus.jpg"><img src="images/Biologica/narcissus_poeticus_Small.jpg" width="100px" height="100px"></img></a></th>
+		<th><img id="myImg" src="images/Biologica/anemone_nemorosa.jpg" onclick="onClick(this)" alt="Anemone Nemorosa" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Biologica/consolida_regalis.jpg" onclick="onClick(this)" alt="Consolida Regalis" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Biologica/delphinium_elatum.jpg" onclick="onClick(this)" alt="Delphinium Elatum" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Biologica/hemerocallis_fulva.jpg" onclick="onClick(this)" alt="Hemerocallis Fulva" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Biologica/narcissus_poeticus.jpg" onclick="onClick(this)" alt="Narcissus Poeticus" width="150px" height="150px"></img></th>
 	    </tr>
 	    <tr>
 		<th>Anemone Nemorosa</th>
@@ -57,11 +58,11 @@
 	    </tr>
 	    <tr></tr>
 	    <tr>
-		<th><a href="images/Biologica/paeonia_officinalis.jpg"><img src="images/Biologica/paeonia_officinalis_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/ComplexulDeSere/arecaceae.jpg"><img src="images/ComplexulDeSere/arecaceae_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/ComplexulDeSere/aucuba_japonica.jpg"><img src="images/ComplexulDeSere/aucuba_japonica_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/ComplexulDeSere/ceratozamia_mexicana.jpg"><img src="images/ComplexulDeSere/ceratozamia_mexicana_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/ComplexulDeSere/codiaeum variegatum.jpg"><img src="images/ComplexulDeSere/codiaeum variegatum_Small.jpg" width="100px" height="100px"></img></a></th>
+		<th><img id="myImg" src="images/Biologica/paeonia_officinalis.jpg" onclick="onClick(this)" alt="Paeonia Officinalis" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/ComplexulDeSere/arecaceae.jpg" onclick="onClick(this)" alt="Arecaceae" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/ComplexulDeSere/aucuba_japonica.jpg" onclick="onClick(this)" alt="Aucuba Japonica" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/ComplexulDeSere/ceratozamia_mexicana.jpg" onclick="onClick(this)" alt="Ceratozamia Mexicana" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/ComplexulDeSere/codiaeum variegatum.jpg" onclick="onClick(this)" alt="Codiaeum Variegatum" width="150px" height="150px"></img></th>
 	    </tr>
 	    <tr>
 		<th>Paeonia Officinalis</th>
@@ -71,11 +72,11 @@
 		<th>Codiaeum Variegatum</th>
 	    </tr>
 	    <tr>
-		<th><a href="images/ComplexulDeSere/cordyline_fruticosa.jpg"><img src="images/ComplexulDeSere/cordyline_fruticosa_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/ComplexulDeSere/cycas.jpg"><img src="images/ComplexulDeSere/cycas_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/ComplexulDeSere/encephalartos_ferox.jpg"><img src="images/ComplexulDeSere/encephalartos_ferox_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/ComplexulDeSere/ficus_deltoidea.jpg"><img src="images/ComplexulDeSere/ficus_deltoidea_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/ComplexulDeSere/ficus_neriifolia.jpg"><img src="images/ComplexulDeSere/ficus_neriifolia_Small.jpg" width="100px" height="100px"></img></a></th>
+		<th><img id="myImg" src="images/ComplexulDeSere/cordyline_fruticosa.jpg" onclick="onClick(this)" alt="Cordyline Fruticosa" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/ComplexulDeSere/cycas.jpg" alt="Cycas" onclick="onClick(this)" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/ComplexulDeSere/encephalartos_ferox.jpg" onclick="onClick(this)" alt="Encephalartos Ferox" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/ComplexulDeSere/ficus_deltoidea.jpg" onclick="onClick(this)" alt="Ficus Deltoidea" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/ComplexulDeSere/ficus_neriifolia.jpg" onclick="onClick(this)" alt="Ficus Neriifolia" width="150px" height="150px"></img></th>
 	    </tr>
 	    <tr>
 		<th>Cordyline Fruticosa</th>
@@ -86,11 +87,11 @@
 	    </tr>
 	    <tr></tr>
 	    <tr>
-		<th><a href="images/ComplexulDeSere/pteridophyta.jpg"><img src="images/ComplexulDeSere/pteridophyta_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/ComplexulDeSere/stangeria.jpg"><img src="images/ComplexulDeSere/stangeria_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Dendrarium/acer_campestre.jpg"><img src="images/Dendrarium/acer_campestre_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Dendrarium/amorpha_fruticosa.jpg"><img src="images/Dendrarium/amorpha_fruticosa_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Dendrarium/elaeagnus_angustifolia.jpg"><img src="images/Dendrarium/elaeagnus_angustifolia_Small.jpg" width="100px" height="100px"></img></a></th>
+		<th><img id="myImg" src="images/ComplexulDeSere/pteridophyta.jpg" onclick="onClick(this)" alt="Pteridophyta" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/ComplexulDeSere/stangeria.jpg" onclick="onClick(this)" alt="Stangeria" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Dendrarium/acer_campestre.jpg" onclick="onClick(this)" alt="Acer Campestre" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Dendrarium/amorpha_fruticosa.jpg" onclick="onClick(this)" alt="Amorpha Fruticosa" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Dendrarium/elaeagnus_angustifolia.jpg" onclick="onClick(this)" alt="Elaeagnus Angustifolia" width="150px" height="150px"></img></th>
 	    </tr>
 	    <tr>
 		<th>Pteridophyta</th>
@@ -100,11 +101,11 @@
 		<th>Elaeagnus Angustifolia</th>
 	    </tr>
 	    <tr>
-		<th><a href="images/Dendrarium/pinus_nigra.jpg"><img src="images/Dendrarium/pinus_nigra_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Dendrarium/populus_alba.jpg"><img src="images/Dendrarium/populus_alba_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Dendrarium/salix_babylonica.jpg"><img src="images/Dendrarium/salix_babylonica_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Fitogeografica/ageratum.jpg"><img src="images/Fitogeografica/ageratum_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Fitogeografica/crocosmia.jpg"><img src="images/Fitogeografica/crocosmia_Small.jpg" width="100px" height="100px"></img></a></th>
+		<th><img id="myImg" src="images/Dendrarium/pinus_nigra.jpg" onclick="onClick(this)" alt="Pinus Nigra" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Dendrarium/populus_alba.jpg" onclick="onClick(this)" alt="Populus Alba" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Dendrarium/salix_babylonica.jpg" onclick="onClick(this)" alt="Salix Babylonica" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Fitogeografica/ageratum.jpg" onclick="onClick(this)" alt="Ageratum" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Fitogeografica/crocosmia.jpg" onclick="onClick(this)" alt="Crocosmia" width="150px" height="150px"></img></th>
 	    </tr>
 	    <tr>
 		<th>Pinus Nigra</th>
@@ -115,11 +116,11 @@
 	    </tr>
 	    <tr></tr>
 	    <tr>
-		<th><a href="images/Fitogeografica/eschscholzia.jpg"><img src="images/Fitogeografica/eschscholzia_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Fitogeografica/gazania.jpg"><img src="images/Fitogeografica/gazania_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Fitogeografica/pelargonium.jpg"><img src="images/Fitogeografica/pelargonium_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Fitogeografica/portulaca.jpg"><img src="images/Fitogeografica/portulaca_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/FloraSiVegetatia/acer_monspessulanum.jpg"><img src="images/FloraSiVegetatia/acer_monspessulanum_Small.jpg" width="100px" height="100px"></img></a></th>
+		<th><img id="myImg" src="images/Fitogeografica/eschscholzia.jpg" onclick="onClick(this)" alt="Eschscholzia" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Fitogeografica/gazania.jpg" onclick="onClick(this)" alt="Gazania" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Fitogeografica/pelargonium.jpg" onclick="onClick(this)" alt="Pelargonium" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Fitogeografica/portulaca.jpg" onclick="onClick(this)" alt="Portulaca" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/FloraSiVegetatia/acer_monspessulanum.jpg" onclick="onClick(this)" alt="Acer Monspessulanum" width="150px" height="150px"></img></th>
 	    </tr>
 	    <tr>
 		<th>Eschscholzia</th>
@@ -129,11 +130,11 @@
 		<th>Acer Monspessulanum</th>
 	    </tr>
 	    <tr>
-		<th><a href="images/FloraSiVegetatia/betula_pendula.jpg"><img src="images/FloraSiVegetatia/betula_pendula_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/FloraSiVegetatia/downy_oak.jpg"><img src="images/FloraSiVegetatia/downy_oak_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/FloraSiVegetatia/prunus_tenella.jpg"><img src="images/FloraSiVegetatia/prunus_tenella_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/FloraSiVegetatia/ruscus_aculeatus.jpg"><img src="images/FloraSiVegetatia/ruscus_aculeatus_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/FloraSiVegetatia/scots_pine.jpg"><img src="images/FloraSiVegetatia/scots_pine_Small.jpg" width="100px" height="100px"></img></a></th>
+		<th><img id="myImg" src="images/FloraSiVegetatia/betula_pendula.jpg" onclick="onClick(this)" alt="Betula Pendula" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/FloraSiVegetatia/downy_oak.jpg" onclick="onClick(this)" alt="Downy Oak" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/FloraSiVegetatia/prunus_tenella.jpg" onclick="onClick(this)" alt="Prunus Tenella" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/FloraSiVegetatia/ruscus_aculeatus.jpg" onclick="onClick(this)" alt="Ruscus Aculeatus" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/FloraSiVegetatia/scots_pine.jpg" onclick="onClick(this)" alt="Scots Pine" width="150px" height="150px"></img></th>
 	    </tr>
 	    <tr>
 		<th>Betula Pendula</th>
@@ -143,11 +144,11 @@
 		<th>Scots Pine</th>
 	    </tr>
 	    <tr>
-		<th><a href="images/FloraSiVegetatia/syringa_josikaea.jpg"><img src="images/FloraSiVegetatia/syringa_josikaea_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Ornamentala/buxus_sempervirens.jpg"><img src="images/Ornamentala/buxus_sempervirens_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Ornamentala/chrysanthemum.jpg"><img src="images/Ornamentala/chrysanthemum_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Ornamentala/gladiolus_alatus.jpg"><img src="images/Ornamentala/gladiolus_alatus_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Ornamentala/gladiolus_carneus.jpg"><img src="images/Ornamentala/gladiolus_carneus_Small.jpg" width="100px" height="100px"></img></a></th>
+		<th><img id="myImg" src="images/FloraSiVegetatia/syringa_josikaea.jpg" onclick="onClick(this)" alt="Syringa Josikaea" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Ornamentala/buxus_sempervirens.jpg" onclick="onClick(this)" alt="Buxus Sempervirens" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Ornamentala/chrysanthemum.jpg" onclick="onClick(this)" alt="Chrysanthemum" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Ornamentala/gladiolus_alatus.jpg" onclick="onClick(this)" alt="Gladiolus Alatus" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Ornamentala/gladiolus_carneus.jpg" onclick="onClick(this)" alt="Gladiolus Carneus" width="150px" height="150px"></img></th>
 	    </tr>
 	    <tr>
 		<th>Syringa Josikaea</th>
@@ -157,11 +158,11 @@
 		<th>Gladiolus Carneus</th>
 	    </tr>
 	    <tr>
-		<th><a href="images/Ornamentala/gladiolus_communis.jpg"><img src="images/Ornamentala/gladiolus_communis_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Ornamentala/glebionis_coronaria.jpg"><img src="images/Ornamentala/glebionis_coronaria_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Ornamentala/glebionis_segetum.jpg"><img src="images/Ornamentala/glebionis_segetum_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Ornamentala/ismelia.jpg"><img src="images/Ornamentala/ismelia_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Ornamentala/magnolia_kobus.jpg"><img src="images/Ornamentala/magnolia_kobus_Small.jpg" width="100px" height="100px"></img></a></th>
+		<th><img id="myImg" src="images/Ornamentala/gladiolus_communis.jpg" onclick="onClick(this)" alt="Gladiolus Communis" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Ornamentala/glebionis_coronaria.jpg" onclick="onClick(this)" alt="Glebionis Coronaria" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Ornamentala/glebionis_segetum.jpg" onclick="onClick(this)" alt="Glebionis Segetum" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Ornamentala/ismelia.jpg" onclick="onClick(this)" alt="Ismelia" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Ornamentala/magnolia_kobus.jpg" onclick="onClick(this)" alt="Magnolia Kobus" width="150px" height="150px"></img></th>
 	    </tr>
 	    <tr>
 		<th>Gladiolus Communis</th>
@@ -171,25 +172,25 @@
 		<th>Magnolia Kobus</th>
 	    </tr>
 	    <tr>
-		<th><a href="images/Ornamentala/magnolia_x_soulangeana.jpg"><img src="images/Ornamentala/magnolia_x_soulangeana_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Ornamentala/narcissus_(plant).jpg"><img src="images/Ornamentala/narcissus_(plant)_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Ornamentala/peony.jpg"><img src="images/Ornamentala/peony_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Ornamentala/rhus_typhina.jpg"><img src="images/Ornamentala/rhus_typhina_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Ornamentala/taxus_baccata.jpg"><img src="images/Ornamentala/taxus_baccata_Small.jpg" width="100px" height="100px"></img></a></th>
+		<th><img id="myImg" src="images/Ornamentala/magnolia_x_soulangeana.jpg" onclick="onClick(this)" alt="Magnolia_x_Soulangeana" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Ornamentala/narcissus_(plant).jpg" onclick="onClick(this)" alt="Narcissus" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Ornamentala/peony.jpg" onclick="onClick(this)" alt="Peony" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Ornamentala/rhus_typhina.jpg" onclick="onClick(this)" alt="Rhus Typhina" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Ornamentala/taxus_baccata.jpg" onclick="onClick(this)" alt="Taxus Baccata" width="150px" height="150px"></img></th>
 	    </tr>
 	    <tr>
 		<th>Magnolia_x_Soulangeana</th>
 		<th>Narcissus</th>
-		<th>peony</th>
+		<th>Peony</th>
 		<th>Rhus Typhina</th>
 		<th>Taxus Baccata</th>
 	    </tr>
 	    <tr>
-		<th><a href="images/Ornamentala/viburnum_rhytidophyllum.jpg"><img src="images/Ornamentala/viburnum_rhytidophyllum_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Ornamentala/yucca.jpg"><img src="images/Ornamentala/yucca_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/PlanteUtile/achillea_millefolium.jpg"><img src="images/PlanteUtile/achillea_millefolium_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/PlanteUtile/ailanthus_altissima.jpg"><img src="images/PlanteUtile/ailanthus_altissima_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/PlanteUtile/artemisia_absinthium.jpg"><img src="images/PlanteUtile/artemisia_absinthium_Small.jpg" width="100px" height="100px"></img></a></th>
+		<th><img id="myImg" src="images/Ornamentala/viburnum_rhytidophyllum.jpg" onclick="onClick(this)" alt="Viburnum Rhytidophyllum" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Ornamentala/yucca.jpg" onclick="onClick(this)" alt="Yucca" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/PlanteUtile/achillea_millefolium.jpg" onclick="onClick(this)" alt="Achillea Millefolium" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/PlanteUtile/ailanthus_altissima.jpg" onclick="onClick(this)" alt="Ailanthus Altissima" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/PlanteUtile/artemisia_absinthium.jpg" onclick="onClick(this)" alt="Artemisia Absinthium" width="150px" height="150px"></img></th>
 	    </tr>
 	    <tr>
 		<th>Viburnum Rhytidophyllum</th>
@@ -199,11 +200,11 @@
 		<th>Artemisia Absinthium</th>
 	    </tr>
 	    <tr>
-		<th><a href="images/PlanteUtile/ephedra_distachya.jpg"><img src="images/PlanteUtile/ephedra_distachya_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/PlanteUtile/primula_veris.jpg"><img src="images/PlanteUtile/primula_veris_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/PlanteUtile/ribwort_plantain.jpg"><img src="images/PlanteUtile/ribwort_plantain_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Rosarium/rosa_acicularis.jpg"><img src="images/Rosarium/rosa_acicularis_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Rosarium/rosa_alba.jpg"><img src="images/Rosarium/rosa_alba_Small.jpg" width="100px" height="100px"></img></a></th>
+		<th><img id="myImg" src="images/PlanteUtile/ephedra_distachya.jpg" onclick="onClick(this)" alt="Ephedra Distachyam" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/PlanteUtile/primula_veris.jpg" onclick="onClick(this)" alt="Primula Veris" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/PlanteUtile/ribwort_plantain.jpg" onclick="onClick(this)" alt="Ribwort Plantain" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Rosarium/rosa_acicularis.jpg" onclick="onClick(this)" alt="Rosa Acicularis" width="150px" height="150px"></img></th>
+		<th>><img id="myImg" src="images/Rosarium/rosa_alba.jpg" onclick="onClick(this)" alt="Rosa Alba" width="150px" height="150px"></img></th>
 	    </tr>
 	    <tr>
 		<th>Ephedra Distachyam</th>
@@ -213,11 +214,11 @@
 		<th>Rosa Alba</th>
 	    </tr>
 	    <tr>
-		<th><a href="images/Rosarium/rosa_banksiae.jpg"><img src="images/Rosarium/rosa_banksiae_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Rosarium/rosa_chinensis.jpg"><img src="images/Rosarium/rosa_chinensis_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Rosarium/rosa_damascena.jpg"><img src="images/Rosarium/rosa_damascena_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Rosarium/rosa_minutifolia.jpg"><img src="images/Rosarium/rosa_minutifolia_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Sistematica/abies_alba.jpg"><img src="images/Sistematica/abies_alba_Small.jpg" width="100px" height="100px"></img></a></th>
+		<th><img id="myImg" src="images/Rosarium/rosa_banksiae.jpg" onclick="onClick(this)" alt="Rosa Banksiae" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Rosarium/rosa_chinensis.jpg" onclick="onClick(this)" alt="Rosa Chinensis" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Rosarium/rosa_damascena.jpg" onclick="onClick(this)" alt="Rosa Damascena" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Rosarium/rosa_minutifolia.jpg" onclick="onClick(this)" alt="Rosa Minutifolia" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Silvostepa/abies_alba.jpg" onclick="onClick(this)" alt="Abies Alba" width="150px" height="150px"></img></th>
 	    </tr>
 	    <tr>
 		<th>Rosa Banksiae</th>
@@ -227,11 +228,11 @@
 		<th>Abies Alba</th>
 	    </tr>
 	    <tr>
-		<th><a href="images/Sistematica/carex_riparia.jpg"><img src="images/Sistematica/carex_riparia_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Sistematica/carpinus_betulus.jpg"><img src="images/Sistematica/carpinus_betulus_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Sistematica/glyceria_fluitans.jpg"><img src="images/Sistematica/glyceria_fluitans_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Sistematica/iris_brandzae.jpg"><img src="images/Sistematica/iris_brandzae_Small.jpg" width="100px" height="100px"></img></a></th>
-		<th><a href="images/Sistematica/ulmus_minor.jpg"><img src="images/Sistematica/ulmus_minor_Small.jpg" width="100px" height="100px"></img></a></th>
+		<th><img id="myImg" src="images/Silvostepa/carex_riparia.jpg" onclick="onClick(this)" alt="Carex Riparia" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Silvostepa/carpinus_betulus.jpg" onclick="onClick(this)" alt="Carpinus Betulus" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Silvostepa/glyceria_fluitans.jpg" onclick="onClick(this)" alt="Glyceria Fluitans" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Silvostepa/iris_brandzae.jpg" onclick="onClick(this)" alt="Iris Brandzae" width="150px" height="150px"></img></th>
+		<th><img id="myImg" src="images/Silvostepa/ulmus_minor.jpg" onclick="onClick(this)" alt="Ulmus Minor" width="150px" height="150px"></img></th>
 	    </tr>
 	    <tr>
 		<th>Carex Riparia</th>
@@ -243,13 +244,25 @@
 	  <table>
 
 
+	<div id="myModal" class="modal" onclick="this.style.display='none'">
+	  <span class="close">&times;</span>
+	  <img id="img01" class="modal-content">
+	<div id="caption"></div>
 
+</div>
 
+<script>
+var captionText = document.getElementById("caption");
+function onClick(element) { 
+    document.getElementById("img01").src=element.src;
+    document.getElementById("myModal").style.display = "block";
+    captionText.innerHTML = element.alt;
+}
 
+</script>
 
 	</div><!--close site_content-->
 	
- 
   </div><!--close main-->
   
   <div id="footer_container">
