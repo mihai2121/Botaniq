@@ -137,15 +137,10 @@
 	    </tr>
 	    <tr>
 		<th><img id="myImg" src="images/Rosarium/rosa_banksiae.jpg" onclick="onClick(this)" alt="Rosa Banksiae" width="150px" height="150px"></img><br>
-<button id="myBtn" onclick="onClick(this)">Click image</button></th>
 		<th><img id="myImg" src="images/Rosarium/rosa_chinensis.jpg" onclick="onClick(this)" alt="Rosa Chinensis" width="150px" height="150px"></img><br>
-<button id="myBtn" onclick="onClick(this)">Click image</button></th>
 		<th><img id="myImg" src="images/Rosarium/rosa_damascena.jpg" onclick="onClick(this)" alt="Rosa Damascena" width="150px" height="150px"></img><br>
-<button id="myBtn" onclick="onClick(this)">Click image</button></th>
 		<th><img id="myImg" src="images/Rosarium/rosa_minutifolia.jpg" onclick="onClick(this)" alt="Rosa Minutifolia" width="150px" height="150px"></img><br>
-<button id="myBtn" onclick="onClick(this)">Click image</button></th>
 		<th><img id="myImg" src="images/Silvostepa/abies_alba.jpg" onclick="onClick(this)" alt="Abies Alba" width="150px" height="150px"></img><br>
-<button id="myBtn" onclick="onClick(this)">Click image</button></th>
 	    </tr><br>
 	     <tr>
 		<th><h7>Carex Riparia</h7></th>
@@ -156,15 +151,11 @@
 	    </tr>
 	    <tr>
 		<th><img id="myImg" src="images/Silvostepa/carex_riparia.jpg" onclick="onClick(this)" alt="Carex Riparia" width="150px" height="150px"></img><br>
-<button id="myBtn" onclick="onClick(this)"><span>Click image</span></button></th>
 		<th><img id="myImg" src="images/Silvostepa/carpinus_betulus.jpg" onclick="onClick(this)" alt="Carpinus Betulus" width="150px" height="150px"></img><br>
-<button id="myBtn" onclick="onClick(this)">Click image</button></th>
 		<th><img id="myImg" src="images/Silvostepa/glyceria_fluitans.jpg" onclick="onClick(this)" alt="Glyceria Fluitans" width="150px" height="150px"></img><br>
-<button id="myBtn" onclick="onClick(this)">Click image</button></th>
 		<th><img id="myImg" src="images/Silvostepa/iris_brandzae.jpg" onclick="onClick(this)" alt="Iris Brandzae" width="150px" height="150px"></img><br>
-<button id="myBtn" onclick="onClick(this)">Click image</button></th>
 		<th><img id="myImg" src="images/Silvostepa/ulmus_minor.jpg" onclick="onClick(this)" alt="Ulmus Minor" width="150px" height="150px"></img><br>
-<button id="myBtn" onclick="onClick(this)">Click image</button></th>
+<button id="myBtn" onclick="onClick(this)" style="display:none;">Click image</button></th>
 	    </tr> 
 	</table>
 
@@ -172,13 +163,12 @@
   <div class="modal-content">
     <div class="modal-header">
       <span class="close">&times;</span>
-      <h2>Plant Name</h2>
+      <h2 id='name'>Plant Name</h2>
     </div>
     <div class="modal-body">
-      <p>Characteristics</p>
+      <p id='caption'>Characteristics</p>
     </div> 
   </div>
-  <div id="caption"></div>
 
 </div>
 
@@ -213,10 +203,10 @@ span.onclick = function() {
 
 
 function onClick(event) {
-       document.getElementById("myBtn");
     document.getElementById("myModal").style.display = "block";
   var text1 = '';
 var denumire = event.getAttribute("alt");
+document.getElementById("name").innerHTML=denumire;
   $.ajax({
     type: 'GET',
     url: 'http://79.112.66.24:8080/botaniq/webapi/plant/'+denumire,
