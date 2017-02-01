@@ -1,0 +1,2359 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#"
+     xml:base="http://www.semanticweb.org/dabija/ontologies/2017/0/plants"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:plantsOnto="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#adaptedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#adaptedTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#growthPeriod -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#growthPeriod"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasClass -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasClass">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Split in orders</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasDivision -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasDivision">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Split in classes</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasDuration -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasDuration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasFamily -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasFamily">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Split in genus</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasGenus -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasGenus">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Split in spiecies</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasOrder -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasOrder">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Split in families</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasCommonName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasCommonName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasSymbol -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#hasSymbol"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#isOriginFrom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#isOriginFrom"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Adaptability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Adaptability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Properties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Class -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Class">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Classification"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In biological classification, class (Latin: classis) is: the composition of each class is determined by a taxonomist. Often there is no exact agreement, with different taxonomists taking different positions. There are no hard rules that a taxonomist needs to follow in describing a class, but for well-known animals there is likely to be consensus. For example, dogs are usually assigned to the phylum Chordata (animals with notochords); in the class Mammalia; in the order Carnivora.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Classification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Classification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Plant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Duration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Duration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Properties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Family -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Family">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Classification"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In biological classification, family (Latin: familia, plural familiae) is one of the eight major taxonomic ranks; it is classified between order and genus. A family may be divided into subfamilies, which are intermediate ranks above the rank of genus. In vernacular usage, a family may be named after one of its common members; for example, walnuts and hickory trees belong to the family Juglandaceae, commonly known as the walnut family.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Classification"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A genus (/ˈdʒiːnəs/, pl. genera) is a taxonomic rank used in the biological classification of living and fossil organisms in biology. In the hierarchy of biological classification, genus comes above species and below family. In binomial nomenclature, the genus name forms the first part of the binomial species name for each species within the genus.Moreover, genera should be composed of phylogenetic units of the same kind as other (analogous) genera.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#GrowthPeriod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#GrowthPeriod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Properties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Order -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Order">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Classification"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In biological classification, the order (Latin: ordo) isWhat does and does not belong to each order is determined by a taxonomist. Similarly for the question if a particular order should be recognized at all. Often there is no exact agreement, with different taxonomists each taking a different position. There are no hard rules that a taxonomist needs to follow in describing or recognizing an order. Some taxa are accepted almost universally, while others are recognised only rarely.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Phylum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Phylum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Classification"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phylum (/ˈfaɪləm/; plural: phyla) is a taxonomic rank below kingdom and above class. Traditionally, in botany the term division was used instead of &quot;phylum&quot;, although from 1993 the International Code of Nomenclature for algae, fungi, and plants accepted the designation &quot;phylum&quot;. The kingdom Animalia contains approximately 35 phyla, Plantae contains 12, and Fungi contains 7.[citation needed] Current research in phylogenetics is uncovering the relationships between phyla, which are contained in larger clades, like Ecdysozoa and Embryophyta.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Plant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Plant"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Properties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Properties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Plant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Classification"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In biology, a species (abbreviated sp., with the plural form species abbreviated spp.) is one of the basic units of biological classification and a taxonomic rank. A species is often defined as the largest group of organisms where two individuals are capable of reproducing fertile offspring, typically using sexual reproduction. While in many cases this definition is adequate, the difficulty of defining species is known as the species problem. For example, a species complex is a group of closely related species that are very similar in appearance to the point that the boundaries between them are often unclear. Differentiating measures include similarity of DNA, morphology, or ecological niche.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer_campestre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer_campestre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Aceraceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Sapindales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hedge maple</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACCA5</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</isOriginFrom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Aceraceae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Aceraceae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Family"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus_altissima -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus_altissima">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Simaroubaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Sapindales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree of heaven</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIAL</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</isOriginFrom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#AllSoils -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#AllSoils">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Adaptability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Anacardiaceae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Anacardiaceae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Family"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Angiospermae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Angiospermae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Phylum"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Flowering_plant"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The flowering plants (angiosperms), also known as Angiospermae or Magnoliophyta, are the most diverse group of land plants, with about 350,000 species. Like gymnosperms, angiosperms are seed-producing plants; they are distinguished from gymnosperms by characteristics including flowers, endosperm within the seeds, and the production of fruits that contain the seeds. Etymologically, angiosperm means a plant that produces seeds within an enclosure, in other words, a fruiting plant. The term &quot;angiosperm&quot; comes from the Greek composite word (angeion-, &quot;case&quot; or &quot;casing&quot;, and sperma, &quot;seed&quot;) meaning &quot;enclosed seeds&quot;, after the enclosed condition of the seeds.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Annual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Annual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Duration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Autumn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Autumn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#GrowthPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birch is a thinleaved deciduous hardwood tree of the genus Betula (/ˈbɛtjʊlə/), in the family Betulaceae, which also includes alders, hazels, and hornbeams, and is closely related to the beech/oak family, Fagaceae. The genus Betula contains 30 to 60 known taxa of which 11 are on the IUCN 2011 Green List of Threatened Species. They are a typically rather short-lived pioneer species widespread in the Northern Hemisphere, particularly in northern temperate and boreal climates.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula_pendula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula_pendula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <adaptedTo rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#AllSoils"/>
+        <growthPeriod rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Summer"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betulaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">European white birch</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEPE3</hasSymbol>
+        <isOriginFrom>USA, CAN</isOriginFrom>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betula pendula, commonly known as silver birch or warty birch, is a species of tree in the family Betulaceae, native to Europe and parts of Asia, though in southern Europe it is only found at higher altitudes. Its range extends into Siberia, China and southwest Asia in the mountains of northern Turkey, the Caucasus and northern Iran. It has been introduced into North America, where it is known as the European white birch, and is considered invasive in some states in USA and in parts of Canada.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betulaceae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betulaceae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Family"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxaceae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxaceae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Family"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Buxaceae are a small family of four or five genera and about 90–120 species of flowering plants. They are shrubs and small trees, with a cosmopolitan distribution. A fifth genus, sometimes accepted in the past (Notobuxus), has been shown by genetic studies to be included within Buxus (Balthazar et al., 2000).</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buxus is a genus of about 70 species in the family Buxaceae. Common names include box (majority of English-speaking countries) or boxwood (North America).The boxes are native to western and southern Europe, southwest, southern and eastern Asia, Africa, Madagascar, northernmost South America, Central America, Mexico and the Caribbean, with the majority of species being tropical or subtropical; only the European and some Asian species are frost-tolerant. Centres of diversity occur in Cuba (about 30 species), China (17 species) and Madagascar (9 species)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus_sempervirens -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus_sempervirens">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Euphorbiales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common box</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BUSE2</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Africa</isOriginFrom>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buxus sempervirens (common box, European box, or boxwood), is a species of flowering plant in the genus Buxus, native to western and southern Europe, northwest Africa, and southwest Asia, from southern England south to northern Morocco, and east through the northern Mediterranean region to Turkey. Buxus colchica of western Caucasus and B. hyrcana of northern Iran and eastern Caucasus are commonly treated as synonyms of B. sempervirens.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Caprifoliaceae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Caprifoliaceae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Family"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hornbeams are relatively small hardwood trees in the genus Carpinus. Though some botanists grouped them with the hazels (Corylus) and hop-hornbeams (Ostrya) in a segregated family, Corylaceae, modern botanists place the hornbeams in the birch subfamily Coryloideae. The 30–40 species occur across much of the north temperate regions, with the greatest number of species in east Asia, particularly China. Only two species occur in Europe, only one in eastern North America, and one in Mesoamerica. Carpinus betulus can be found in Europe, Turkey and Ukraine.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus_betulus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus_betulus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betulaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">European hornbeam</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CABE8</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</isOriginFrom>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carpinus betulus, commonly known as the European or common hornbeam, is a hornbeam native to Western Asia and central, eastern, and southern Europe, including southern England. It requires a warm climate for good growth, and occurs only at elevations up to 600 metres (1,969 ft). It grows in mixed stands with oak, and in some areas beech, and is also a common tree in scree forests.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Castanea_pumila -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Castanea_pumila">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinquapin</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAPU9</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</isOriginFrom>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castanea pumila, commonly known as the Allegheny chinquapin, American chinquapin (from the Powhatan) or dwarf chestnut, is a species of chestnut native to the eastern United States from southern New Jersey and Pennsylvania south to central Florida, west to eastern Texas, and north to southern Missouri and Kentucky. The plant&apos;s habitat is dry sandy and rocky uplands and ridges mixed with oak and hickory to 1000 m elevation. It grows best on well-drained soils in full sun or partial shade.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chestnut group is a genus (Castanea) of eight or nine species of deciduous trees and shrubs in the beech family Fagaceae, native to temperate regions of the Northern Hemisphere.The name also refers to the edible nuts they produce.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#CoarseTexturedSoils -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#CoarseTexturedSoils">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Adaptability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Cupressaceae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Cupressaceae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Family"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Cupressaceae or cypress family is a conifer family with worldwide distribution. The family includes 27–30 genera (17 monotypic), which include the junipers and redwoods, with about 130–140 species in total. They are monoecious, subdioecious or (rarely) dioecious trees and shrubs 1–116 metres (3 ft 3 in–380 ft 7 in) tall. The bark of mature trees is commonly orange- to red- brown and of stringy texture, often flaking or peeling in vertical strips, but smooth, scaly or hard and square-cracked in some species.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Dispacales -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Dispacales">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Euphorbiales -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Euphorbiales">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Order"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euphorbiales is the botanical name of an order of flowering plants that is not currently recognized in the most authoritative modern treatment of plant taxonomy. In the APG II system (2003) the plants involved are placed in order Malpighiales.A well known system that did recognize the order was the Cronquist system (1981) which placed the order in subclass Rosidae and used this circumscription.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagaceae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagaceae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Family"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The family Fagaceae includes beeches and oaks, and comprises about 600 species of both evergreen and deciduous trees and shrubs, which are characterized by alternate simple leaves with pinnate venation, unisexual flowers in the form of catkins, and fruit in the form of cup-like (cupule) nuts. Fagaceous leaves are often lobed and both petioles and stipules are generally present. Fruits lack endosperm and lie in a scaly or spiny husk that may or may not enclose the entire nut, which may consist of one to seven seeds. The best-known group of this family is the oaks, genus Quercus, the fruit of which is a non-valved nut (usually containing one seed) called an acorn. The husk of the acorn in most oaks only forms a cup in which the nut sits.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagales -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagales">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Order"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Fagales are an order of flowering plants, including some of the best-known trees. The order name is derived from genus Fagus, beeches. They belong among the rosid group of dicotyledons.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#FineTexturedSoils -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#FineTexturedSoils">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Adaptability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Flowering_plant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Flowering_plant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Phylum"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The flowering plants (angiosperms), also known as Angiospermae or Magnoliophyta, are the most diverse group of land plants, with about 350,000 species. Like gymnosperms, angiosperms are seed-producing plants; they are distinguished from gymnosperms by characteristics including flowers, endosperm within the seeds, and the production of fruits that contain the seeds. Etymologically, angiosperm means a plant that produces seeds within an enclosure, in other words, a fruiting plant. The term &quot;angiosperm&quot; comes from the Greek composite word (angeion-, &quot;case&quot; or &quot;casing&quot;, and sperma, &quot;seed&quot;) meaning &quot;enclosed seeds&quot;, after the enclosed condition of the seeds.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Phylum"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The flowering plants (angiosperms), also known as Angiospermae or Magnoliophyta, are the most diverse group of land plants, with about 350,000 species. Like gymnosperms, angiosperms are seed-producing plants; they are distinguished from gymnosperms by characteristics including flowers, endosperm within the seeds, and the production of fruits that contain the seeds. Etymologically, angiosperm means a plant that produces seeds within an enclosure, in other words, a fruiting plant. The term &quot;angiosperm&quot; comes from the Greek composite word (angeion-, &quot;case&quot; or &quot;casing&quot;, and sperma, &quot;seed&quot;) meaning &quot;enclosed seeds&quot;, after the enclosed condition of the seeds.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Class"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnoliopsida is a valid botanical name for a class of flowering plants. By definition the class will include the family Magnoliaceae, but its circumscription can otherwise vary, being more inclusive or less inclusive depending upon the classification system being discussed.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#MediumTexturedSoils -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#MediumTexturedSoils">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Adaptability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metasequoia (dawn redwood) is a fast-growing, deciduous tree, and the sole living species, Metasequoia glyptostroboides, is one of three species of conifers known as redwoods. It is native to Lichuan county in the Hubei province of China. Although the least tall of the redwoods, it grows to at least 200 feet (60 meters) in height. Local villagers refer to the original tree from which most others derive as Shui-sa, or &quot;water fir&quot;, which is part of a local shrine. Since that tree&apos;s rediscovery in 1944, the dawn redwood has become a popular ornamental.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia_glyptostoboides -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia_glyptostoboides">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <adaptedTo rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#FineTexturedSoils"/>
+        <growthPeriod rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Spring"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinopsida"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Cupressaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dawn redwood</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEGL8</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">China</isOriginFrom>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metasequoia glyptostroboides, the dawn redwood, is a fast-growing, endangered coniferous tree, the sole living species of the genus Metasequoia, one of three species in the subfamily Sequoioideae. It is native to Lichuan county in the Hubei province of China. Although shortest of the redwoods, it can grow to at least 200 ft (61 m) in height.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Duration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinaceae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinaceae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Family"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Pinaceae (pine family) are trees or shrubs, including many of the well-known conifers of commercial importance such as cedars, firs, hemlocks, larches, pines and spruces. The family is included in the order Pinales, formerly known as Coniferales. Pinaceae are supported as monophyletic by their protein-type sieve cell plastids, pattern of proembryogeny, and lack of bioflavonoids. They are the largest extant conifer family in species diversity, with between 220 and 250 species (depending on taxonomic opinion) in 11 genera, and the second-largest (after Cupressaceae) in geographical range, found in most of the Northern Hemisphere, with the majority of the species in temperate climates, but ranging from subarctic to tropical. The family often forms the dominant component of boreal, coastal</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinales -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinales">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Order"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The order Pinales in the division Pinophyta, class Pinopsida, comprises all the extant conifers. This order used to be known as the Coniferales.The distinguishing characteristic is the reproductive structure known as a cone produced by all Pinales. All of the extant conifers, such as cedar, celery-pine, cypress, fir, juniper, larch, pine, redwood, spruce, and yew are included here. Some fossil conifers, however, belong to other distinct orders within the division Pinophyta.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinophyta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinophyta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Phylum"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The conifers, division Pinophyta, also known as division Coniferophyta or Coniferae, are one of 12 extant division-level taxa within the Kingdom Plantae (Viridiplantae) and 10 within the extant land plants. Pinophytes are gymnosperms, cone-bearing seed plants with vascular tissue. All extant conifers are woody plants with secondary growth. The great majority are trees, though a few are shrubs. Examples include cedars, Douglas-firs, cypresses, firs, junipers, kauri, larches, pines, hemlocks, redwoods, spruces, and yews. As of 1998, the division was estimated to contain eight families, 68 genera, and 629 living species.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinopsida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinopsida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Class"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The class Pinopsida is characterized by generally small, always simple leaves and by the active secondary growth of stem and root. Many members of this group flourished from Lower Carboniferous times to the Permian age. Plants of the order Pinales (conifers) occur in the Northern Hemisphere; a few species occur within the tropics at sea level.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pines are conifer trees in the genus Pinus /ˈpiːnuːs/, in the family Pinaceae. They are the only genus in the subfamily Pinoideae. The Plant List compiled by the Royal Botanic Gardens, Kew and Missouri Botanical Garden accepts 126 species names of pines as current, together with 35 unresolved species and many more synonyms.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_nigra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_nigra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <adaptedTo rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#FineTexturedSoils"/>
+        <growthPeriod rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Spring"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinophyta"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Austrian pine</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINI</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAN</isOriginFrom>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pinus nigra, the Austrian pine or black pine, is a moderately variable species of pine, occurring across southern Mediterranean Europe from Spain to the eastern Mediterranean on Anatolian peninsula of Turkey and on Corsica/Cyprus, including Crimea, and in the high mountains of the Maghreb in North Africa.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_sylvestris -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_sylvestris">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <adaptedTo rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#CoarseTexturedSoils"/>
+        <growthPeriod rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Summer"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinophyta"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scots pine</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PISY</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</isOriginFrom>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pinus sylvestris L. (Scots pine) is a species of pine that is native to Eurasia, ranging from Western Europe to Eastern Siberia, south to the Caucasus Mountains and Anatolia, and north to well inside the Arctic Circle in Scandinavia. In the north of its range, it occurs from sea level to 1,000 m, while in the south of its range it is a high altitude mountain tree, growing at 1,200–2,600 metres (3,900–8,500 ft) altitude. It is readily identified by its combination of fairly short, blue-green leaves and orange-red bark.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus_alba -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus_alba">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <growthPeriod rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Spring"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white poplar</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POAL7</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</isOriginFrom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_ilex -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_ilex">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">holly oak</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QUIL2</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">England</isOriginFrom>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quercus ilex, the evergreen oak, holly oak or holm oak, is a large evergreen oak native to the Mediterranean region. It takes its name from holm, an ancient name for holly. It is a member of the white oak section of the genus, with acorns that mature in a single summer. It was first introduced to the United Kingdom in the 16th century. The first trees to be planted from acorns into England are still to be found growing within the stately grounds of Mamhead Park, Devon. They are uncommonly fine examples; several of these trees are 10 ft (3 m) in circumference at 3 ft (0.91 m) from the ground, and one of them measures 13 1⁄2 ft (4.1 m) in circumference.[citation needed] One specimen in Milo, in Sicily, is reputed to be 700 years old while a small population on the slopes of northern village</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_rubra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_rubra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <growthPeriod rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Spring"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">northern red oak</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QURU</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North America</isOriginFrom>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quercus rubra, commonly called northern red oak or champion oak, (syn. Quercus borealis), is an oak in the red oak group (Quercus section Lobatae). It is a native of North America, in the eastern and central United States and southeast and south-central Canada. It grows from the north end of the Great Lakes, east to Nova Scotia, south as far as Georgia, Alabama, and Louisiana, and west to Oklahoma, Kansas, Nebraska, and Minnesota. and It prefers good soil that is slightly acidic. Often simply called &quot;red oak&quot;, northern red oak is formally so named to distinguish it from southern red oak (Q. falcata), also known as the Spanish oak. It is also the state tree of New Jersey and the provincial tree of Prince Edward Island.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus_typhina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus_typhina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Anacardiaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Sapindales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stanghorn sumac</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RHTY</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</isOriginFrom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicaceae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicaceae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Family"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicales -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicales">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix_babylonica -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix_babylonica">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weeping willow</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SABA</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</isOriginFrom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Sapindales -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Sapindales">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Simaroubaceae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Simaroubaceae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Family"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Spring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Spring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#GrowthPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Summer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Summer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#GrowthPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thuja (/ˈθjuːdʒə/ THEW-jə) is a genus of coniferous trees in the Cupressaceae (cypress family). There are five species in the genus, two native to North America and three native to eastern Asia. The genus is monophyletic and sister to Thujopsis.They are commonly known as arborvitaes, (from Latin for tree of life) thujas or cedars.and many more</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja_occidentalis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja_occidentalis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <adaptedTo rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#AllSoils"/>
+        <growthPeriod rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Spring"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinophyta"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Cupressaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aborvitae</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THOC2</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canada</isOriginFrom>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thuja occidentalis, also known as white cedar, is an evergreen coniferous tree, in the cypress family Cupressaceae, which is native to eastern Canada and much of the north, central and upper Northeastern United States, but widely cultivated as an ornamental plant. The species was first described by Carl Linnaeus in 1753, and the binomial name remains current.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Genus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum_rhytidophyllum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum_rhytidophyllum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Species"/>
+        <hasClass rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida"/>
+        <hasDivision rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        <hasFamily rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Caprifoliaceae"/>
+        <hasGenus rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum"/>
+        <hasOrder rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Dispacales"/>
+        <hasCommonName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leatherleaf arrowwood</hasCommonName>
+        <hasSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIRH</hasSymbol>
+        <isOriginFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</isOriginFrom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Winter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Winter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#GrowthPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Acer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Aceraceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Anacardiaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Aceraceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betulaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Aceraceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Aceraceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Caprifoliaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Aceraceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Cupressaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Aceraceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Aceraceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Aceraceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Aceraceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Simaroubaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Ailanthus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Anacardiaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betulaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Anacardiaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Anacardiaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Caprifoliaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Anacardiaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Cupressaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Anacardiaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Anacardiaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Anacardiaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Anacardiaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Simaroubaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Angiospermae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinophyta"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Annual"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Perennial"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Autumn"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Spring"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Autumn"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Summer"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Autumn"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Winter"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula_pendula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus_sempervirens"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula_pendula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Castanea_pumila"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula_pendula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia_glyptostoboides"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula_pendula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_nigra"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula_pendula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_sylvestris"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula_pendula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_ilex"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula_pendula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_rubra"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula_pendula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja_occidentalis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betula_pendula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum_rhytidophyllum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betulaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betulaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Caprifoliaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betulaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Cupressaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betulaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betulaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betulaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Betulaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Simaroubaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Caprifoliaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Cupressaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Simaroubaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus_sempervirens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus_betulus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus_sempervirens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Castanea_pumila"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus_sempervirens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia_glyptostoboides"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus_sempervirens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_nigra"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus_sempervirens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_sylvestris"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus_sempervirens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_ilex"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus_sempervirens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_rubra"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus_sempervirens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja_occidentalis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Buxus_sempervirens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum_rhytidophyllum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Caprifoliaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Cupressaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Caprifoliaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Caprifoliaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Caprifoliaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Caprifoliaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Simaroubaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus_betulus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Castanea_pumila"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus_betulus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia_glyptostoboides"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus_betulus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_nigra"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus_betulus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_sylvestris"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus_betulus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_ilex"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus_betulus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_rubra"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Carpinus_betulus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum_rhytidophyllum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Castanea_pumila"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia_glyptostoboides"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Castanea_pumila"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_nigra"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Castanea_pumila"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_sylvestris"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Castanea_pumila"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja_occidentalis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Chestnut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#CoarseTexturedSoils"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#FineTexturedSoils"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#CoarseTexturedSoils"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#MediumTexturedSoils"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Cupressaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Cupressaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Cupressaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Cupressaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Simaroubaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Dispacales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Euphorbiales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Dispacales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Dispacales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Dispacales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Dispacales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Sapindales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Euphorbiales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Euphorbiales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Euphorbiales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Euphorbiales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Sapindales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Simaroubaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Fagales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Sapindales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#FineTexturedSoils"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#MediumTexturedSoils"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Flowering_plant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinophyta"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliophyta"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinophyta"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Magnoliopsida"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinopsida"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia_glyptostoboides"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_nigra"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia_glyptostoboides"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_sylvestris"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia_glyptostoboides"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_ilex"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia_glyptostoboides"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_rubra"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Metasequoia_glyptostoboides"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja_occidentalis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Simaroubaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Sapindales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_nigra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_ilex"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_nigra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_rubra"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_nigra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja_occidentalis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_sylvestris"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_ilex"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_sylvestris"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_rubra"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Pinus_sylvestris"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja_occidentalis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Populus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_ilex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja_occidentalis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Quercus_rubra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja_occidentalis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Rhus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicaceae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Simaroubaceae"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salicales"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Sapindales"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Salix"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Spring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Summer"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Spring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Winter"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Summer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Winter"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Thuja"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#Viburnum"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+

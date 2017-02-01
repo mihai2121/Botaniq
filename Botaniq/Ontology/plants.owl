@@ -1,0 +1,2376 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dabija/ontologies/2017/0/plants"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dabija/ontologies/2017/0/plants">
+    <Prefix name="" IRI="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="plantsOnto" IRI="http://www.semanticweb.org/dabija/ontologies/2017/0/plants#"/>
+    <Declaration>
+        <ObjectProperty IRI="#hasDuration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Duration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salix_babylonica"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSymbol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dispacales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Betula_pendula"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Populus_alba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Autumn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carpinus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Viburnum_rhytidophyllum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pinales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDivision"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ailanthus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AllSoils"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Angiospermae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Class"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isOriginFrom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pinaceae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Populus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Species"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sapindales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFamily"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metasequoia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pinus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cupressaceae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Viburnum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Summer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ailanthus_altissima"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anacardiaceae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FineTexturedSoils"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phylum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simaroubaceae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quercus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acer_campestre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Buxaceae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aceraceae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Order"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#growthPeriod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#adaptedTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Winter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCommonName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adaptability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chestnut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CoarseTexturedSoils"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flowering_plant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perennial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pinopsida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fagales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salicaceae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fagaceae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Betulaceae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rhus_typhina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rhus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thuja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Euphorbiales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Buxus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumTexturedSoils"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowthPeriod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Properties"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salicales"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOrder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caprifoliaceae"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Annual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pinophyta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Betula"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Adaptability"/>
+        <Class IRI="#Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Class"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classification"/>
+        <Class IRI="#Plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Duration"/>
+        <Class IRI="#Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genus"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowthPeriod"/>
+        <Class IRI="#Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Order"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phylum"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Properties"/>
+        <Class IRI="#Plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Species"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Genus"/>
+        <NamedIndividual IRI="#Acer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Acer_campestre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Aceraceae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genus"/>
+        <NamedIndividual IRI="#Ailanthus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Ailanthus_altissima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adaptability"/>
+        <NamedIndividual IRI="#AllSoils"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Anacardiaceae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Phylum"/>
+        <NamedIndividual IRI="#Angiospermae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Duration"/>
+        <NamedIndividual IRI="#Annual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GrowthPeriod"/>
+        <NamedIndividual IRI="#Autumn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genus"/>
+        <NamedIndividual IRI="#Betula"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Betula_pendula"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Betulaceae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Buxaceae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genus"/>
+        <NamedIndividual IRI="#Buxus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Caprifoliaceae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genus"/>
+        <NamedIndividual IRI="#Carpinus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genus"/>
+        <NamedIndividual IRI="#Chestnut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adaptability"/>
+        <NamedIndividual IRI="#CoarseTexturedSoils"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Cupressaceae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Order"/>
+        <NamedIndividual IRI="#Dispacales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Order"/>
+        <NamedIndividual IRI="#Euphorbiales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Fagaceae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Order"/>
+        <NamedIndividual IRI="#Fagales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adaptability"/>
+        <NamedIndividual IRI="#FineTexturedSoils"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Phylum"/>
+        <NamedIndividual IRI="#Flowering_plant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Phylum"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Class"/>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adaptability"/>
+        <NamedIndividual IRI="#MediumTexturedSoils"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genus"/>
+        <NamedIndividual IRI="#Metasequoia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Duration"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Pinaceae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Order"/>
+        <NamedIndividual IRI="#Pinales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Phylum"/>
+        <NamedIndividual IRI="#Pinophyta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Class"/>
+        <NamedIndividual IRI="#Pinopsida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genus"/>
+        <NamedIndividual IRI="#Pinus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genus"/>
+        <NamedIndividual IRI="#Populus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Populus_alba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genus"/>
+        <NamedIndividual IRI="#Quercus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genus"/>
+        <NamedIndividual IRI="#Rhus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Rhus_typhina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Salicaceae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Order"/>
+        <NamedIndividual IRI="#Salicales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genus"/>
+        <NamedIndividual IRI="#Salix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Salix_babylonica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Order"/>
+        <NamedIndividual IRI="#Sapindales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Simaroubaceae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GrowthPeriod"/>
+        <NamedIndividual IRI="#Spring"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GrowthPeriod"/>
+        <NamedIndividual IRI="#Summer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genus"/>
+        <NamedIndividual IRI="#Thuja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genus"/>
+        <NamedIndividual IRI="#Viburnum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Species"/>
+        <NamedIndividual IRI="#Viburnum_rhytidophyllum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GrowthPeriod"/>
+        <NamedIndividual IRI="#Winter"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#Angiospermae"/>
+        <NamedIndividual IRI="#Flowering_plant"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Angiospermae"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Flowering_plant"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </SameIndividual>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Acer"/>
+        <NamedIndividual IRI="#Ailanthus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Acer"/>
+        <NamedIndividual IRI="#Betula"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Acer"/>
+        <NamedIndividual IRI="#Buxus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Acer"/>
+        <NamedIndividual IRI="#Carpinus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Acer"/>
+        <NamedIndividual IRI="#Chestnut"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Acer"/>
+        <NamedIndividual IRI="#Metasequoia"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Acer"/>
+        <NamedIndividual IRI="#Pinus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Acer"/>
+        <NamedIndividual IRI="#Populus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Acer"/>
+        <NamedIndividual IRI="#Quercus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Acer"/>
+        <NamedIndividual IRI="#Rhus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Acer"/>
+        <NamedIndividual IRI="#Salix"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Acer"/>
+        <NamedIndividual IRI="#Thuja"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Acer"/>
+        <NamedIndividual IRI="#Viburnum"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Aceraceae"/>
+        <NamedIndividual IRI="#Anacardiaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Aceraceae"/>
+        <NamedIndividual IRI="#Betulaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Aceraceae"/>
+        <NamedIndividual IRI="#Buxaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Aceraceae"/>
+        <NamedIndividual IRI="#Caprifoliaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Aceraceae"/>
+        <NamedIndividual IRI="#Cupressaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Aceraceae"/>
+        <NamedIndividual IRI="#Fagaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Aceraceae"/>
+        <NamedIndividual IRI="#Pinaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Aceraceae"/>
+        <NamedIndividual IRI="#Salicaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Aceraceae"/>
+        <NamedIndividual IRI="#Simaroubaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Ailanthus"/>
+        <NamedIndividual IRI="#Betula"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Ailanthus"/>
+        <NamedIndividual IRI="#Buxus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Ailanthus"/>
+        <NamedIndividual IRI="#Carpinus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Ailanthus"/>
+        <NamedIndividual IRI="#Chestnut"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Ailanthus"/>
+        <NamedIndividual IRI="#Metasequoia"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Ailanthus"/>
+        <NamedIndividual IRI="#Pinus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Ailanthus"/>
+        <NamedIndividual IRI="#Populus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Ailanthus"/>
+        <NamedIndividual IRI="#Quercus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Ailanthus"/>
+        <NamedIndividual IRI="#Rhus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Ailanthus"/>
+        <NamedIndividual IRI="#Salix"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Ailanthus"/>
+        <NamedIndividual IRI="#Thuja"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Anacardiaceae"/>
+        <NamedIndividual IRI="#Betulaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Anacardiaceae"/>
+        <NamedIndividual IRI="#Buxaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Anacardiaceae"/>
+        <NamedIndividual IRI="#Caprifoliaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Anacardiaceae"/>
+        <NamedIndividual IRI="#Cupressaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Anacardiaceae"/>
+        <NamedIndividual IRI="#Fagaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Anacardiaceae"/>
+        <NamedIndividual IRI="#Pinaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Anacardiaceae"/>
+        <NamedIndividual IRI="#Salicaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Anacardiaceae"/>
+        <NamedIndividual IRI="#Simaroubaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Angiospermae"/>
+        <NamedIndividual IRI="#Pinophyta"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Annual"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Autumn"/>
+        <NamedIndividual IRI="#Spring"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Autumn"/>
+        <NamedIndividual IRI="#Summer"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Autumn"/>
+        <NamedIndividual IRI="#Winter"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula"/>
+        <NamedIndividual IRI="#Buxus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula"/>
+        <NamedIndividual IRI="#Carpinus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula"/>
+        <NamedIndividual IRI="#Chestnut"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula"/>
+        <NamedIndividual IRI="#Metasequoia"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula"/>
+        <NamedIndividual IRI="#Pinus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula"/>
+        <NamedIndividual IRI="#Populus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula"/>
+        <NamedIndividual IRI="#Quercus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula"/>
+        <NamedIndividual IRI="#Rhus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula"/>
+        <NamedIndividual IRI="#Salix"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula"/>
+        <NamedIndividual IRI="#Thuja"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula"/>
+        <NamedIndividual IRI="#Viburnum"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Viburnum_rhytidophyllum"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betulaceae"/>
+        <NamedIndividual IRI="#Buxaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betulaceae"/>
+        <NamedIndividual IRI="#Caprifoliaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betulaceae"/>
+        <NamedIndividual IRI="#Cupressaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betulaceae"/>
+        <NamedIndividual IRI="#Fagaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betulaceae"/>
+        <NamedIndividual IRI="#Pinaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betulaceae"/>
+        <NamedIndividual IRI="#Salicaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Betulaceae"/>
+        <NamedIndividual IRI="#Simaroubaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxaceae"/>
+        <NamedIndividual IRI="#Caprifoliaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxaceae"/>
+        <NamedIndividual IRI="#Cupressaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxaceae"/>
+        <NamedIndividual IRI="#Fagaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxaceae"/>
+        <NamedIndividual IRI="#Pinaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxaceae"/>
+        <NamedIndividual IRI="#Salicaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxaceae"/>
+        <NamedIndividual IRI="#Simaroubaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus"/>
+        <NamedIndividual IRI="#Carpinus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus"/>
+        <NamedIndividual IRI="#Chestnut"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus"/>
+        <NamedIndividual IRI="#Metasequoia"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus"/>
+        <NamedIndividual IRI="#Pinus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus"/>
+        <NamedIndividual IRI="#Populus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus"/>
+        <NamedIndividual IRI="#Quercus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus"/>
+        <NamedIndividual IRI="#Rhus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus"/>
+        <NamedIndividual IRI="#Salix"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus"/>
+        <NamedIndividual IRI="#Thuja"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus"/>
+        <NamedIndividual IRI="#Viburnum"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Viburnum_rhytidophyllum"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Caprifoliaceae"/>
+        <NamedIndividual IRI="#Cupressaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Caprifoliaceae"/>
+        <NamedIndividual IRI="#Fagaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Caprifoliaceae"/>
+        <NamedIndividual IRI="#Pinaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Caprifoliaceae"/>
+        <NamedIndividual IRI="#Salicaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Caprifoliaceae"/>
+        <NamedIndividual IRI="#Simaroubaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus"/>
+        <NamedIndividual IRI="#Chestnut"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus"/>
+        <NamedIndividual IRI="#Metasequoia"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus"/>
+        <NamedIndividual IRI="#Pinus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus"/>
+        <NamedIndividual IRI="#Populus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus"/>
+        <NamedIndividual IRI="#Quercus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus"/>
+        <NamedIndividual IRI="#Rhus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus"/>
+        <NamedIndividual IRI="#Salix"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus"/>
+        <NamedIndividual IRI="#Thuja"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus"/>
+        <NamedIndividual IRI="#Viburnum"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <NamedIndividual IRI="#Viburnum_rhytidophyllum"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Chestnut"/>
+        <NamedIndividual IRI="#Metasequoia"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Chestnut"/>
+        <NamedIndividual IRI="#Pinus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Chestnut"/>
+        <NamedIndividual IRI="#Populus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Chestnut"/>
+        <NamedIndividual IRI="#Rhus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Chestnut"/>
+        <NamedIndividual IRI="#Salix"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Chestnut"/>
+        <NamedIndividual IRI="#Thuja"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Chestnut"/>
+        <NamedIndividual IRI="#Viburnum"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#CoarseTexturedSoils"/>
+        <NamedIndividual IRI="#FineTexturedSoils"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#CoarseTexturedSoils"/>
+        <NamedIndividual IRI="#MediumTexturedSoils"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Cupressaceae"/>
+        <NamedIndividual IRI="#Fagaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Cupressaceae"/>
+        <NamedIndividual IRI="#Pinaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Cupressaceae"/>
+        <NamedIndividual IRI="#Salicaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Cupressaceae"/>
+        <NamedIndividual IRI="#Simaroubaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Dispacales"/>
+        <NamedIndividual IRI="#Euphorbiales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Dispacales"/>
+        <NamedIndividual IRI="#Fagales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Dispacales"/>
+        <NamedIndividual IRI="#Pinales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Dispacales"/>
+        <NamedIndividual IRI="#Salicales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Dispacales"/>
+        <NamedIndividual IRI="#Sapindales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Euphorbiales"/>
+        <NamedIndividual IRI="#Fagales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Euphorbiales"/>
+        <NamedIndividual IRI="#Pinales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Euphorbiales"/>
+        <NamedIndividual IRI="#Salicales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Euphorbiales"/>
+        <NamedIndividual IRI="#Sapindales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Fagaceae"/>
+        <NamedIndividual IRI="#Pinaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Fagaceae"/>
+        <NamedIndividual IRI="#Salicaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Fagaceae"/>
+        <NamedIndividual IRI="#Simaroubaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Fagales"/>
+        <NamedIndividual IRI="#Pinales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Fagales"/>
+        <NamedIndividual IRI="#Salicales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Fagales"/>
+        <NamedIndividual IRI="#Sapindales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#FineTexturedSoils"/>
+        <NamedIndividual IRI="#MediumTexturedSoils"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Flowering_plant"/>
+        <NamedIndividual IRI="#Pinophyta"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+        <NamedIndividual IRI="#Pinophyta"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+        <NamedIndividual IRI="#Pinopsida"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Metasequoia"/>
+        <NamedIndividual IRI="#Pinus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Metasequoia"/>
+        <NamedIndividual IRI="#Populus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Metasequoia"/>
+        <NamedIndividual IRI="#Quercus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Metasequoia"/>
+        <NamedIndividual IRI="#Salix"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Metasequoia"/>
+        <NamedIndividual IRI="#Thuja"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Metasequoia"/>
+        <NamedIndividual IRI="#Viburnum"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinaceae"/>
+        <NamedIndividual IRI="#Salicaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinaceae"/>
+        <NamedIndividual IRI="#Simaroubaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinales"/>
+        <NamedIndividual IRI="#Salicales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinales"/>
+        <NamedIndividual IRI="#Sapindales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinus"/>
+        <NamedIndividual IRI="#Populus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinus"/>
+        <NamedIndividual IRI="#Quercus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinus"/>
+        <NamedIndividual IRI="#Rhus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinus"/>
+        <NamedIndividual IRI="#Salix"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinus"/>
+        <NamedIndividual IRI="#Thuja"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinus"/>
+        <NamedIndividual IRI="#Viburnum"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Populus"/>
+        <NamedIndividual IRI="#Quercus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Populus"/>
+        <NamedIndividual IRI="#Rhus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Populus"/>
+        <NamedIndividual IRI="#Salix"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Populus"/>
+        <NamedIndividual IRI="#Thuja"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Populus"/>
+        <NamedIndividual IRI="#Viburnum"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Quercus"/>
+        <NamedIndividual IRI="#Rhus"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Quercus"/>
+        <NamedIndividual IRI="#Salix"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Quercus"/>
+        <NamedIndividual IRI="#Thuja"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Quercus"/>
+        <NamedIndividual IRI="#Viburnum"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Rhus"/>
+        <NamedIndividual IRI="#Salix"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Rhus"/>
+        <NamedIndividual IRI="#Thuja"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Rhus"/>
+        <NamedIndividual IRI="#Viburnum"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Salicaceae"/>
+        <NamedIndividual IRI="#Simaroubaceae"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Salicales"/>
+        <NamedIndividual IRI="#Sapindales"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Salix"/>
+        <NamedIndividual IRI="#Thuja"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Salix"/>
+        <NamedIndividual IRI="#Viburnum"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Spring"/>
+        <NamedIndividual IRI="#Summer"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Spring"/>
+        <NamedIndividual IRI="#Winter"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Summer"/>
+        <NamedIndividual IRI="#Winter"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Thuja"/>
+        <NamedIndividual IRI="#Viburnum"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Acer_campestre"/>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Acer_campestre"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Acer_campestre"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Acer_campestre"/>
+        <NamedIndividual IRI="#Aceraceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Acer_campestre"/>
+        <NamedIndividual IRI="#Acer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Acer_campestre"/>
+        <NamedIndividual IRI="#Sapindales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Ailanthus_altissima"/>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Ailanthus_altissima"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Ailanthus_altissima"/>
+        <NamedIndividual IRI="#Simaroubaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Ailanthus_altissima"/>
+        <NamedIndividual IRI="#Ailanthus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Ailanthus_altissima"/>
+        <NamedIndividual IRI="#Sapindales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adaptedTo"/>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#AllSoils"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#growthPeriod"/>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Summer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Betulaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Betula"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <NamedIndividual IRI="#Fagales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Buxaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Buxus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <NamedIndividual IRI="#Euphorbiales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <NamedIndividual IRI="#Betulaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <NamedIndividual IRI="#Carpinus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <NamedIndividual IRI="#Fagales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+        <NamedIndividual IRI="#Fagaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+        <NamedIndividual IRI="#Chestnut"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+        <NamedIndividual IRI="#Fagales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adaptedTo"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <NamedIndividual IRI="#FineTexturedSoils"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#growthPeriod"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <NamedIndividual IRI="#Spring"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <NamedIndividual IRI="#Pinopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <NamedIndividual IRI="#Pinopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <NamedIndividual IRI="#Cupressaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <NamedIndividual IRI="#Metasequoia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <NamedIndividual IRI="#Pinales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adaptedTo"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+        <NamedIndividual IRI="#FineTexturedSoils"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#growthPeriod"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+        <NamedIndividual IRI="#Spring"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+        <NamedIndividual IRI="#Pinopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+        <NamedIndividual IRI="#Pinophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+        <NamedIndividual IRI="#Pinaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+        <NamedIndividual IRI="#Pinus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+        <NamedIndividual IRI="#Pinales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adaptedTo"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+        <NamedIndividual IRI="#CoarseTexturedSoils"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#growthPeriod"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+        <NamedIndividual IRI="#Summer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+        <NamedIndividual IRI="#Pinopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+        <NamedIndividual IRI="#Pinophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+        <NamedIndividual IRI="#Pinaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+        <NamedIndividual IRI="#Pinus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+        <NamedIndividual IRI="#Pinales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#growthPeriod"/>
+        <NamedIndividual IRI="#Populus_alba"/>
+        <NamedIndividual IRI="#Spring"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Populus_alba"/>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Populus_alba"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Populus_alba"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Populus_alba"/>
+        <NamedIndividual IRI="#Salicaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Populus_alba"/>
+        <NamedIndividual IRI="#Populus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Populus_alba"/>
+        <NamedIndividual IRI="#Salicales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+        <NamedIndividual IRI="#Fagaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+        <NamedIndividual IRI="#Quercus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+        <NamedIndividual IRI="#Fagales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#growthPeriod"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+        <NamedIndividual IRI="#Spring"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+        <NamedIndividual IRI="#Fagaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+        <NamedIndividual IRI="#Quercus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+        <NamedIndividual IRI="#Fagales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Rhus_typhina"/>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Rhus_typhina"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Rhus_typhina"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Rhus_typhina"/>
+        <NamedIndividual IRI="#Anacardiaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Rhus_typhina"/>
+        <NamedIndividual IRI="#Rhus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Rhus_typhina"/>
+        <NamedIndividual IRI="#Sapindales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Salix_babylonica"/>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Salix_babylonica"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Salix_babylonica"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Salix_babylonica"/>
+        <NamedIndividual IRI="#Salicaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Salix_babylonica"/>
+        <NamedIndividual IRI="#Salix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Salix_babylonica"/>
+        <NamedIndividual IRI="#Salicales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adaptedTo"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+        <NamedIndividual IRI="#AllSoils"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#growthPeriod"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+        <NamedIndividual IRI="#Spring"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+        <NamedIndividual IRI="#Pinopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+        <NamedIndividual IRI="#Pinophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+        <NamedIndividual IRI="#Cupressaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+        <NamedIndividual IRI="#Thuja"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+        <NamedIndividual IRI="#Pinales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Viburnum_rhytidophyllum"/>
+        <NamedIndividual IRI="#Magnoliopsida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDivision"/>
+        <NamedIndividual IRI="#Viburnum_rhytidophyllum"/>
+        <NamedIndividual IRI="#Magnoliophyta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#Viburnum_rhytidophyllum"/>
+        <NamedIndividual IRI="#Perennial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Viburnum_rhytidophyllum"/>
+        <NamedIndividual IRI="#Caprifoliaceae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenus"/>
+        <NamedIndividual IRI="#Viburnum_rhytidophyllum"/>
+        <NamedIndividual IRI="#Viburnum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrder"/>
+        <NamedIndividual IRI="#Viburnum_rhytidophyllum"/>
+        <NamedIndividual IRI="#Dispacales"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Acer_campestre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hedge maple</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Acer_campestre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ACCA5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Acer_campestre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Ailanthus_altissima"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tree of heaven</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Ailanthus_altissima"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">AIAL</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Ailanthus_altissima"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">European white birch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">BEPE3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Betula_pendula"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">USA, CAN</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Common box</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">BUSE2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Buxus_sempervirens"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Africa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">European hornbeam</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CABE8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Carpinus_betulus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Chinquapin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CAPU9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Castanea_pumila"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Dawn redwood</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MEGL8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Metasequoia_glyptostoboides"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">China</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Austrian pine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PINI</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Pinus_nigra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CAN</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Scots pine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PISY</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Pinus_sylvestris"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Populus_alba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">white poplar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Populus_alba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">POAL7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Populus_alba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">holly oak</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">QUIL2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Quercus_ilex"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">England</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">northern red oak</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">QURU</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Quercus_rubra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">North America</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Rhus_typhina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">stanghorn sumac</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Rhus_typhina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">RHTY</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Rhus_typhina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Salix_babylonica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">weeping willow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Salix_babylonica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SABA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Salix_babylonica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">aborvitae</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">THOC2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Thuja_occidentalis"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Canada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCommonName"/>
+        <NamedIndividual IRI="#Viburnum_rhytidophyllum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">leatherleaf arrowwood</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSymbol"/>
+        <NamedIndividual IRI="#Viburnum_rhytidophyllum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">VIRH</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOriginFrom"/>
+        <NamedIndividual IRI="#Viburnum_rhytidophyllum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">USA</Literal>
+    </DataPropertyAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Angiospermae</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The flowering plants (angiosperms), also known as Angiospermae or Magnoliophyta, are the most diverse group of land plants, with about 350,000 species. Like gymnosperms, angiosperms are seed-producing plants; they are distinguished from gymnosperms by characteristics including flowers, endosperm within the seeds, and the production of fruits that contain the seeds. Etymologically, angiosperm means a plant that produces seeds within an enclosure, in other words, a fruiting plant. The term &quot;angiosperm&quot; comes from the Greek composite word (angeion-, &quot;case&quot; or &quot;casing&quot;, and sperma, &quot;seed&quot;) meaning &quot;enclosed seeds&quot;, after the enclosed condition of the seeds.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Betula</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Birch is a thinleaved deciduous hardwood tree of the genus Betula (/ˈbɛtjʊlə/), in the family Betulaceae, which also includes alders, hazels, and hornbeams, and is closely related to the beech/oak family, Fagaceae. The genus Betula contains 30 to 60 known taxa of which 11 are on the IUCN 2011 Green List of Threatened Species. They are a typically rather short-lived pioneer species widespread in the Northern Hemisphere, particularly in northern temperate and boreal climates.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Betula_pendula</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Betula pendula, commonly known as silver birch or warty birch, is a species of tree in the family Betulaceae, native to Europe and parts of Asia, though in southern Europe it is only found at higher altitudes. Its range extends into Siberia, China and southwest Asia in the mountains of northern Turkey, the Caucasus and northern Iran. It has been introduced into North America, where it is known as the European white birch, and is considered invasive in some states in USA and in parts of Canada.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Buxaceae</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The Buxaceae are a small family of four or five genera and about 90–120 species of flowering plants. They are shrubs and small trees, with a cosmopolitan distribution. A fifth genus, sometimes accepted in the past (Notobuxus), has been shown by genetic studies to be included within Buxus (Balthazar et al., 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Buxus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Buxus is a genus of about 70 species in the family Buxaceae. Common names include box (majority of English-speaking countries) or boxwood (North America).The boxes are native to western and southern Europe, southwest, southern and eastern Asia, Africa, Madagascar, northernmost South America, Central America, Mexico and the Caribbean, with the majority of species being tropical or subtropical; only the European and some Asian species are frost-tolerant. Centres of diversity occur in Cuba (about 30 species), China (17 species) and Madagascar (9 species)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Buxus_sempervirens</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Buxus sempervirens (common box, European box, or boxwood), is a species of flowering plant in the genus Buxus, native to western and southern Europe, northwest Africa, and southwest Asia, from southern England south to northern Morocco, and east through the northern Mediterranean region to Turkey. Buxus colchica of western Caucasus and B. hyrcana of northern Iran and eastern Caucasus are commonly treated as synonyms of B. sempervirens.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Carpinus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Hornbeams are relatively small hardwood trees in the genus Carpinus. Though some botanists grouped them with the hazels (Corylus) and hop-hornbeams (Ostrya) in a segregated family, Corylaceae, modern botanists place the hornbeams in the birch subfamily Coryloideae. The 30–40 species occur across much of the north temperate regions, with the greatest number of species in east Asia, particularly China. Only two species occur in Europe, only one in eastern North America, and one in Mesoamerica. Carpinus betulus can be found in Europe, Turkey and Ukraine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Carpinus_betulus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Carpinus betulus, commonly known as the European or common hornbeam, is a hornbeam native to Western Asia and central, eastern, and southern Europe, including southern England. It requires a warm climate for good growth, and occurs only at elevations up to 600 metres (1,969 ft). It grows in mixed stands with oak, and in some areas beech, and is also a common tree in scree forests.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Castanea_pumila</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Castanea pumila, commonly known as the Allegheny chinquapin, American chinquapin (from the Powhatan) or dwarf chestnut, is a species of chestnut native to the eastern United States from southern New Jersey and Pennsylvania south to central Florida, west to eastern Texas, and north to southern Missouri and Kentucky. The plant&apos;s habitat is dry sandy and rocky uplands and ridges mixed with oak and hickory to 1000 m elevation. It grows best on well-drained soils in full sun or partial shade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chestnut</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The chestnut group is a genus (Castanea) of eight or nine species of deciduous trees and shrubs in the beech family Fagaceae, native to temperate regions of the Northern Hemisphere.The name also refers to the edible nuts they produce.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Class</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">In biological classification, class (Latin: classis) is: the composition of each class is determined by a taxonomist. Often there is no exact agreement, with different taxonomists taking different positions. There are no hard rules that a taxonomist needs to follow in describing a class, but for well-known animals there is likely to be consensus. For example, dogs are usually assigned to the phylum Chordata (animals with notochords); in the class Mammalia; in the order Carnivora.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cupressaceae</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The Cupressaceae or cypress family is a conifer family with worldwide distribution. The family includes 27–30 genera (17 monotypic), which include the junipers and redwoods, with about 130–140 species in total. They are monoecious, subdioecious or (rarely) dioecious trees and shrubs 1–116 metres (3 ft 3 in–380 ft 7 in) tall. The bark of mature trees is commonly orange- to red- brown and of stringy texture, often flaking or peeling in vertical strips, but smooth, scaly or hard and square-cracked in some species.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Euphorbiales</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Euphorbiales is the botanical name of an order of flowering plants that is not currently recognized in the most authoritative modern treatment of plant taxonomy. In the APG II system (2003) the plants involved are placed in order Malpighiales.A well known system that did recognize the order was the Cronquist system (1981) which placed the order in subclass Rosidae and used this circumscription.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fagaceae</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The family Fagaceae includes beeches and oaks, and comprises about 600 species of both evergreen and deciduous trees and shrubs, which are characterized by alternate simple leaves with pinnate venation, unisexual flowers in the form of catkins, and fruit in the form of cup-like (cupule) nuts. Fagaceous leaves are often lobed and both petioles and stipules are generally present. Fruits lack endosperm and lie in a scaly or spiny husk that may or may not enclose the entire nut, which may consist of one to seven seeds. The best-known group of this family is the oaks, genus Quercus, the fruit of which is a non-valved nut (usually containing one seed) called an acorn. The husk of the acorn in most oaks only forms a cup in which the nut sits.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fagales</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The Fagales are an order of flowering plants, including some of the best-known trees. The order name is derived from genus Fagus, beeches. They belong among the rosid group of dicotyledons.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Family</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">In biological classification, family (Latin: familia, plural familiae) is one of the eight major taxonomic ranks; it is classified between order and genus. A family may be divided into subfamilies, which are intermediate ranks above the rank of genus. In vernacular usage, a family may be named after one of its common members; for example, walnuts and hickory trees belong to the family Juglandaceae, commonly known as the walnut family.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Flowering_plant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The flowering plants (angiosperms), also known as Angiospermae or Magnoliophyta, are the most diverse group of land plants, with about 350,000 species. Like gymnosperms, angiosperms are seed-producing plants; they are distinguished from gymnosperms by characteristics including flowers, endosperm within the seeds, and the production of fruits that contain the seeds. Etymologically, angiosperm means a plant that produces seeds within an enclosure, in other words, a fruiting plant. The term &quot;angiosperm&quot; comes from the Greek composite word (angeion-, &quot;case&quot; or &quot;casing&quot;, and sperma, &quot;seed&quot;) meaning &quot;enclosed seeds&quot;, after the enclosed condition of the seeds.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Genus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A genus (/ˈdʒiːnəs/, pl. genera) is a taxonomic rank used in the biological classification of living and fossil organisms in biology. In the hierarchy of biological classification, genus comes above species and below family. In binomial nomenclature, the genus name forms the first part of the binomial species name for each species within the genus.Moreover, genera should be composed of phylogenetic units of the same kind as other (analogous) genera.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Magnoliophyta</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The flowering plants (angiosperms), also known as Angiospermae or Magnoliophyta, are the most diverse group of land plants, with about 350,000 species. Like gymnosperms, angiosperms are seed-producing plants; they are distinguished from gymnosperms by characteristics including flowers, endosperm within the seeds, and the production of fruits that contain the seeds. Etymologically, angiosperm means a plant that produces seeds within an enclosure, in other words, a fruiting plant. The term &quot;angiosperm&quot; comes from the Greek composite word (angeion-, &quot;case&quot; or &quot;casing&quot;, and sperma, &quot;seed&quot;) meaning &quot;enclosed seeds&quot;, after the enclosed condition of the seeds.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Magnoliopsida</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Magnoliopsida is a valid botanical name for a class of flowering plants. By definition the class will include the family Magnoliaceae, but its circumscription can otherwise vary, being more inclusive or less inclusive depending upon the classification system being discussed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Metasequoia</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Metasequoia (dawn redwood) is a fast-growing, deciduous tree, and the sole living species, Metasequoia glyptostroboides, is one of three species of conifers known as redwoods. It is native to Lichuan county in the Hubei province of China. Although the least tall of the redwoods, it grows to at least 200 feet (60 meters) in height. Local villagers refer to the original tree from which most others derive as Shui-sa, or &quot;water fir&quot;, which is part of a local shrine. Since that tree&apos;s rediscovery in 1944, the dawn redwood has become a popular ornamental.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Metasequoia_glyptostoboides</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Metasequoia glyptostroboides, the dawn redwood, is a fast-growing, endangered coniferous tree, the sole living species of the genus Metasequoia, one of three species in the subfamily Sequoioideae. It is native to Lichuan county in the Hubei province of China. Although shortest of the redwoods, it can grow to at least 200 ft (61 m) in height.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Order</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">In biological classification, the order (Latin: ordo) isWhat does and does not belong to each order is determined by a taxonomist. Similarly for the question if a particular order should be recognized at all. Often there is no exact agreement, with different taxonomists each taking a different position. There are no hard rules that a taxonomist needs to follow in describing or recognizing an order. Some taxa are accepted almost universally, while others are recognised only rarely.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Phylum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Phylum (/ˈfaɪləm/; plural: phyla) is a taxonomic rank below kingdom and above class. Traditionally, in botany the term division was used instead of &quot;phylum&quot;, although from 1993 the International Code of Nomenclature for algae, fungi, and plants accepted the designation &quot;phylum&quot;. The kingdom Animalia contains approximately 35 phyla, Plantae contains 12, and Fungi contains 7.[citation needed] Current research in phylogenetics is uncovering the relationships between phyla, which are contained in larger clades, like Ecdysozoa and Embryophyta.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pinaceae</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The Pinaceae (pine family) are trees or shrubs, including many of the well-known conifers of commercial importance such as cedars, firs, hemlocks, larches, pines and spruces. The family is included in the order Pinales, formerly known as Coniferales. Pinaceae are supported as monophyletic by their protein-type sieve cell plastids, pattern of proembryogeny, and lack of bioflavonoids. They are the largest extant conifer family in species diversity, with between 220 and 250 species (depending on taxonomic opinion) in 11 genera, and the second-largest (after Cupressaceae) in geographical range, found in most of the Northern Hemisphere, with the majority of the species in temperate climates, but ranging from subarctic to tropical. The family often forms the dominant component of boreal, coastal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pinales</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The order Pinales in the division Pinophyta, class Pinopsida, comprises all the extant conifers. This order used to be known as the Coniferales.The distinguishing characteristic is the reproductive structure known as a cone produced by all Pinales. All of the extant conifers, such as cedar, celery-pine, cypress, fir, juniper, larch, pine, redwood, spruce, and yew are included here. Some fossil conifers, however, belong to other distinct orders within the division Pinophyta.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pinophyta</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The conifers, division Pinophyta, also known as division Coniferophyta or Coniferae, are one of 12 extant division-level taxa within the Kingdom Plantae (Viridiplantae) and 10 within the extant land plants. Pinophytes are gymnosperms, cone-bearing seed plants with vascular tissue. All extant conifers are woody plants with secondary growth. The great majority are trees, though a few are shrubs. Examples include cedars, Douglas-firs, cypresses, firs, junipers, kauri, larches, pines, hemlocks, redwoods, spruces, and yews. As of 1998, the division was estimated to contain eight families, 68 genera, and 629 living species.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pinopsida</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The class Pinopsida is characterized by generally small, always simple leaves and by the active secondary growth of stem and root. Many members of this group flourished from Lower Carboniferous times to the Permian age. Plants of the order Pinales (conifers) occur in the Northern Hemisphere; a few species occur within the tropics at sea level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pinus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Pines are conifer trees in the genus Pinus /ˈpiːnuːs/, in the family Pinaceae. They are the only genus in the subfamily Pinoideae. The Plant List compiled by the Royal Botanic Gardens, Kew and Missouri Botanical Garden accepts 126 species names of pines as current, together with 35 unresolved species and many more synonyms.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pinus_nigra</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Pinus nigra, the Austrian pine or black pine, is a moderately variable species of pine, occurring across southern Mediterranean Europe from Spain to the eastern Mediterranean on Anatolian peninsula of Turkey and on Corsica/Cyprus, including Crimea, and in the high mountains of the Maghreb in North Africa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pinus_sylvestris</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Pinus sylvestris L. (Scots pine) is a species of pine that is native to Eurasia, ranging from Western Europe to Eastern Siberia, south to the Caucasus Mountains and Anatolia, and north to well inside the Arctic Circle in Scandinavia. In the north of its range, it occurs from sea level to 1,000 m, while in the south of its range it is a high altitude mountain tree, growing at 1,200–2,600 metres (3,900–8,500 ft) altitude. It is readily identified by its combination of fairly short, blue-green leaves and orange-red bark.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Quercus_ilex</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Quercus ilex, the evergreen oak, holly oak or holm oak, is a large evergreen oak native to the Mediterranean region. It takes its name from holm, an ancient name for holly. It is a member of the white oak section of the genus, with acorns that mature in a single summer. It was first introduced to the United Kingdom in the 16th century. The first trees to be planted from acorns into England are still to be found growing within the stately grounds of Mamhead Park, Devon. They are uncommonly fine examples; several of these trees are 10 ft (3 m) in circumference at 3 ft (0.91 m) from the ground, and one of them measures 13 1⁄2 ft (4.1 m) in circumference.[citation needed] One specimen in Milo, in Sicily, is reputed to be 700 years old while a small population on the slopes of northern village</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Quercus_rubra</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Quercus rubra, commonly called northern red oak or champion oak, (syn. Quercus borealis), is an oak in the red oak group (Quercus section Lobatae). It is a native of North America, in the eastern and central United States and southeast and south-central Canada. It grows from the north end of the Great Lakes, east to Nova Scotia, south as far as Georgia, Alabama, and Louisiana, and west to Oklahoma, Kansas, Nebraska, and Minnesota. and It prefers good soil that is slightly acidic. Often simply called &quot;red oak&quot;, northern red oak is formally so named to distinguish it from southern red oak (Q. falcata), also known as the Spanish oak. It is also the state tree of New Jersey and the provincial tree of Prince Edward Island.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Species</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">In biology, a species (abbreviated sp., with the plural form species abbreviated spp.) is one of the basic units of biological classification and a taxonomic rank. A species is often defined as the largest group of organisms where two individuals are capable of reproducing fertile offspring, typically using sexual reproduction. While in many cases this definition is adequate, the difficulty of defining species is known as the species problem. For example, a species complex is a group of closely related species that are very similar in appearance to the point that the boundaries between them are often unclear. Differentiating measures include similarity of DNA, morphology, or ecological niche.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Thuja</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Thuja (/ˈθjuːdʒə/ THEW-jə) is a genus of coniferous trees in the Cupressaceae (cypress family). There are five species in the genus, two native to North America and three native to eastern Asia. The genus is monophyletic and sister to Thujopsis.They are commonly known as arborvitaes, (from Latin for tree of life) thujas or cedars.and many more</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Thuja_occidentalis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Thuja occidentalis, also known as white cedar, is an evergreen coniferous tree, in the cypress family Cupressaceae, which is native to eastern Canada and much of the north, central and upper Northeastern United States, but widely cultivated as an ornamental plant. The species was first described by Carl Linnaeus in 1753, and the binomial name remains current.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasClass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Split in orders</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDivision</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Split in classes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFamily</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Split in genus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasGenus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Split in spiecies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasOrder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Split in families</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+

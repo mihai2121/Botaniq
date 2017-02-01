@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>Botaniq</title>
+  <meta name="keywords" content="project, infoiasi, wade, web" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+	  <div id="banner">
+	    <div id="welcome">
+	      <h1>„Anastasie Fătu” Botanic Garden</h1>
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h1>University "Alexandru Ioan Cuza" of Iasi</h1>
+	    </div><!--close welcome_slogan-->
+	  </div><!--close banner-->
+    </div><!--close header-->
+
+	<div id="menu_container">
+	  <div id="menubar">
+        <ul id="menu">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li ><a href="garden_section.html">Garden Sections</a></li>
+          <li ><a href="plants_classification.html">Plants Classification</a></li>
+          <li ><a href="virtual_tour.html">Virtual Tour</a></li>
+          <li ><a href="foto_gallery.html">Foto Gallery</a></li>
+          <li ><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div><!--close menubar-->	
+	</div><!--close menu_container-->	
+    
+	<div id="site_content">		
+
+	  <div class="sidebar_container">       
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Contact</h2>
+            <p>IAȘI, Dumbrava Roșie
+                St. No. 7-9
+                Tel: 0232/201373
+                Fax: 0232/201385
+                E-mail: gbot.is@uaic.ro</p>
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->     		
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Hours & Admissions:</h2>
+            <h3>Visiting programme: 9 - 16</h3>
+            <p>Admission is free. (No pets allowed, except for service animals)</p>         
+		  </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->
+
+       </div><!--close sidebar_container-->	
+	
+      <ul class="slideshow">
+        <li><img width="680" height="250" src="images/home_2.jpg" /></li>
+      </ul>   	 
+	 
+	  <div id="content">
+        <div class="content_item">
+		  <h1>Welcome</h1> 
+          <p>  "A. Fatu" Botanic Garden of Iasi has a tumultuous history that has passed by over a century period to become as we are seeing and admiring today. Among other cultural priorities of the ancient capital of Moldavia, a special place is granted to the setting up, in 1856, of the first botanic garden of Romania, by the physician and naturalist Anastasie Fatu, a great patriot, philanthropist and highly cultivated man. Situated on a terrain bought with his own funds in the immediate vicinity of the Rapa Galbena point, this first garden has to be for many years, until the death of its great promoter, both an important cultural centre for the studious youth of Iasi, that had the possibility to study botany on living material, and an instruction and education instrument for all nature admirers.
+      This is what just Anastasie Fatu has wrote in 1870 in the preface of "The enumeration of the species cultivated in the Botanic Garden of Iasi" paper, regarding the setting up and the purposes of this garden: "Since 1856 I have founded the Botanic Garden of Iasi. This institution, that in the beginning have evolved very slow, being reduced to my own possibilities, later, it has prospered due to the subventions offered by the Townhouse of Iasi"."Founding this garden, I have proposed to myself to improve the salubrity of the city, to stimulate the studious youth to learn botany and to assure to the natural sciences lovers the opportunity to contemplate the nature beauties in their rest moments".By his financial efforts intermittently sustained by the public authorities, the garden lasted until A. Fatu's death (1886), after that, the terrain has been sold by his successors and all the botanic material gathered in his lifetime has been wasted.</p>   		
+		  
+		  <div class="content_image">
+		    <img src="images/content_image1.jpg" alt="image1"/>
+	      </div>
+		  <br style="clear:both"/>
+		  
+		  </div><!--close content_container-->			  
+		</div><!--close content_item-->
+      </div><!--close content-->   
+	</div><!--close site_content--> 
+    
+ 
+  </div><!--close main-->
+  
+  <div id="footer_container">
+    <div id="footer">
+      Botaniq 2017
+    </div><!--close footer-->  
+  </div><!--close footer_container-->  
+  
+</body>
+</html>
