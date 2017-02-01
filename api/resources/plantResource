@@ -1,0 +1,53 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.wade.botaniq.resources;
+
+import com.wade.botaniq.models.Plant;
+import com.wade.botaniq.models.PlantList;
+import com.wade.botaniq.services.PlantServices;
+import java.util.ArrayList;
+import java.util.List;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.MediaType;
+
+/**
+ *
+ * @author tarmis
+ */
+@Path("/plant")
+public class plantResource {
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<PlantList> getPlantList(@QueryParam("start") int start, @QueryParam("size") int size) {
+        PlantServices ps1 = new PlantServices();
+        return ps1.getPlantList(start, size);
+    }
+
+    @GET
+    @Path("/{namePlant}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Plant getPlant(@PathParam("namePlant") String namePlant) {
+        System.out.println("nume planta" + namePlant);
+        PlantServices ps1 = new PlantServices();
+        return ps1.getPlant(namePlant);
+    }
+    
+    @GET
+    @Path("/common/{namePlant}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<PlantList> getPlantListByCommonName(@PathParam("namePlant") String namePlant){
+    PlantServices ps1 = new PlantServices();
+        return ps1.getPlantListByCommonName(namePlant);
+    }
+    
+    
+    
+}
