@@ -211,13 +211,41 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 
-var captionText = document.getElementById("caption");
+
+function onClick(event) {
+       document.getElementById("myBtn");
+    document.getElementById("myModal").style.display = "block";
+  var text1 = '';
+var denumire = event.getAttribute("alt");
+  $.ajax({
+    type: 'GET',
+    url: 'http://79.112.66.24:8080/botaniq/webapi/plant/'+denumire,
+    data: '{}',
+    contentType: 'application/json; charset=utf-8',
+    dataType: 'json',
+    success: function (data) {
+
+text1 = '<table border=1>';
+text1 +='<tr><td><img src="'+ data.image + '"height="300" width="300"></td></tr>';
+text1 +='<tr><td>Scientific Name </td><td><b>' + data.scientificName + '</b></td></tr>';
+text1 +='<tr><td>Description </td><td><b>' + data.genus + '</b></td></tr>';
+
+text1 += '</table>';
+ 
+    }
+  });
+      document.getElementById('caption').innerHTML =text1;
+
+}
+
+
+/*
 function onClick(event) { 
     document.getElementById("myBtn");
     document.getElementById("myModal").style.display = "block";
-    captionText.innerHTML = element.value;
+    document.getElementById("caption").innerHTML="test;"
 
-}
+} */
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
@@ -226,9 +254,9 @@ window.onclick = function(event) {
 </script>
 
 <script>
-/*function showDiv(){
+function showDiv(){
     document.getElementById('welcomeDiv').style.display = "block";
-}*/
+}
 </script>
   </body>
 </html>
