@@ -1,0 +1,424 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.wade.botaniq.models;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+/**
+ *
+ * @author psg
+ */
+@XmlRootElement
+public class Plant {
+
+    private String abrev;
+    private String abstractd;
+    private String linkWiki;
+    private String scientificName;
+    private String commonName;
+    private String genus;
+    private String family;
+    private String order;
+    private String classd;
+    private String division;
+    private String duration;
+    private String growthHabit;
+    private String factSheet;
+    private String plantGuide;
+    private String flowerColor;
+    private String growthRate;
+    private String heigthMax;
+    private String leafRetention;
+    private String lifespan;
+    private String toxicity;
+    private String soilCoarse;
+    private String soilMedium;
+    private String soilFine;
+    private String drougthTolerance;
+    private String fertilityRequirement;
+    private String phMin;
+    private String phMax;
+    private String shadeTolerance;
+    private String bloomPeriod;
+    private String fruitPeriod;    
+    private String propogateByRoot;
+    private String propogateByBulbs;
+    private String propogateByContainer;
+    private String propogateByCorms;
+    private String propogateByCutting;
+    private String propogateBySeed;
+    private String propogateBySood;
+    private String propogateBySprings;
+    private String propogateByTubers;
+    private String image;
+
+    public Plant() {
+    }
+
+    public Plant(String abrev, String abstractd, String linkWiki, String scientificName, String commonName, String genus, String family, String order, String classd, String division, String duration, String growthHabit, String factSheet, String plantGuide, String flowerColor, String growthRate, String heigthMax, String leafRetention, String lifespan, String toxicity, String soilCoarse, String soilMedium, String soilFine, String drougthTolerance, String fertilityRequirement, String phMin, String phMax, String shadeTolerance, String bloomPeriod, String fruitPeriod,String propogateByRoot, String propogateByBulbs, String propogateByContainer, String propogateByCorms, String propogateByCutting, String propogateBySeed, String propogateBySood, String propogateBySprings, String propogateByTubers, String image) {
+        this.abrev = abrev;
+        this.abstractd = abstractd;
+        this.linkWiki = linkWiki;
+        this.scientificName = scientificName;
+        this.commonName = commonName;
+        this.genus = genus;
+        this.family = family;
+        this.order = order;
+        this.classd = classd;
+        this.division = division;
+        this.duration = duration;
+        this.growthHabit = growthHabit;
+        this.factSheet = factSheet;
+        this.plantGuide = plantGuide;
+        this.flowerColor = flowerColor;
+        this.growthRate = growthRate;
+        this.heigthMax = heigthMax;
+        this.leafRetention = leafRetention;
+        this.lifespan = lifespan;
+        this.toxicity = toxicity;
+        this.soilCoarse = soilCoarse;
+        this.soilMedium = soilMedium;
+        this.soilFine = soilFine;
+        this.drougthTolerance = drougthTolerance;
+        this.fertilityRequirement = fertilityRequirement;
+        this.phMin = phMin;
+        this.phMax = phMax;
+        this.shadeTolerance = shadeTolerance;
+        this.bloomPeriod = bloomPeriod;
+        this.fruitPeriod=fruitPeriod;
+        this.propogateByRoot = propogateByRoot;
+        this.propogateByBulbs = propogateByBulbs;
+        this.propogateByContainer = propogateByContainer;
+        this.propogateByCorms = propogateByCorms;
+        this.propogateByCutting = propogateByCutting;
+        this.propogateBySeed = propogateBySeed;
+        this.propogateBySood = propogateBySood;
+        this.propogateBySprings = propogateBySprings;
+        this.propogateByTubers = propogateByTubers;
+        this.image = image;
+    }
+
+    public String getAbrev() {
+        return abrev;
+    }
+
+    public void setAbrev(String abrev) {
+        this.abrev = abrev;
+    }
+
+    public String getAbstractd() {
+        return abstractd;
+    }
+
+    public void setAbstractd(String abstractd) {
+        this.abstractd = abstractd;
+    }
+
+    public String getLinkWiki() {
+        return linkWiki;
+    }
+
+    public void setLinkWiki(String linkWiki) {
+        this.linkWiki = linkWiki;
+    }
+
+    public String getScientificName() {
+        return scientificName;
+    }
+
+    public void setScientificName(String scientificName) {
+        this.scientificName = scientificName;
+    }
+
+    public String getCommonName() {
+        return commonName;
+    }
+
+    public void setCommonName(String commonName) {
+        this.commonName = commonName;
+    }
+
+    public String getGenus() {
+        return genus;
+    }
+
+    public void setGenus(String genus) {
+        this.genus = genus;
+    }
+
+    public String getFamily() {
+        return family;
+    }
+
+    public void setFamily(String family) {
+        this.family = family;
+    }
+
+    public String getOrder() {
+        return order;
+    }
+
+    public void setOrder(String order) {
+        this.order = order;
+    }
+
+    public String getClassd() {
+        return classd;
+    }
+
+    public void setClassd(String classd) {
+        this.classd = classd;
+    }
+
+    public String getDivision() {
+        return division;
+    }
+
+    public void setDivision(String division) {
+        this.division = division;
+    }
+
+    public String getDuration() {
+        return duration;
+    }
+
+    public void setDuration(String duration) {
+        this.duration = duration;
+    }
+
+    public String getGrowthHabit() {
+        return growthHabit;
+    }
+
+    public void setGrowthHabit(String growthHabit) {
+        this.growthHabit = growthHabit;
+    }
+
+    public String getFactSheet() {
+        return factSheet;
+    }
+
+    public void setFactSheet(String factSheet) {
+        this.factSheet = factSheet;
+    }
+
+    public String getPlantGuide() {
+        return plantGuide;
+    }
+
+    public void setPlantGuide(String plantGuide) {
+        this.plantGuide = plantGuide;
+    }
+
+    public String getFlowerColor() {
+        return flowerColor;
+    }
+
+    public void setFlowerColor(String flowerColor) {
+        this.flowerColor = flowerColor;
+    }
+
+    public String getGrowthRate() {
+        return growthRate;
+    }
+
+    public void setGrowthRate(String growthRate) {
+        this.growthRate = growthRate;
+    }
+
+    public String getHeigthMax() {
+        return heigthMax;
+    }
+
+    public void setHeigthMax(String heigthMax) {
+        this.heigthMax = heigthMax;
+    }
+
+    public String getLeafRetention() {
+        return leafRetention;
+    }
+
+    public void setLeafRetention(String leafRetention) {
+        this.leafRetention = leafRetention;
+    }
+
+    public String getLifespan() {
+        return lifespan;
+    }
+
+    public void setLifespan(String lifespan) {
+        this.lifespan = lifespan;
+    }
+
+    public String getToxicity() {
+        return toxicity;
+    }
+
+    public void setToxicity(String toxicity) {
+        this.toxicity = toxicity;
+    }
+
+    public String getSoilCoarse() {
+        return soilCoarse;
+    }
+
+    public void setSoilCoarse(String soilCoarse) {
+        this.soilCoarse = soilCoarse;
+    }
+
+    public String getSoilMedium() {
+        return soilMedium;
+    }
+
+    public void setSoilMedium(String soilMedium) {
+        this.soilMedium = soilMedium;
+    }
+
+    public String getSoilFine() {
+        return soilFine;
+    }
+
+    public void setSoilFine(String soilFine) {
+        this.soilFine = soilFine;
+    }
+
+    public String getDrougthTolerance() {
+        return drougthTolerance;
+    }
+
+    public void setDrougthTolerance(String drougthTolerance) {
+        this.drougthTolerance = drougthTolerance;
+    }
+
+    public String getFertilityRequirement() {
+        return fertilityRequirement;
+    }
+
+    public void setFertilityRequirement(String fertilityRequirement) {
+        this.fertilityRequirement = fertilityRequirement;
+    }
+
+    public String getPhMin() {
+        return phMin;
+    }
+
+    public void setPhMin(String phMin) {
+        this.phMin = phMin;
+    }
+
+    public String getPhMax() {
+        return phMax;
+    }
+
+    public void setPhMax(String phMax) {
+        this.phMax = phMax;
+    }
+
+    public String getBloomPeriod() {
+        return bloomPeriod;
+    }
+
+    public void setBloomPeriod(String bloomPeriod) {
+        this.bloomPeriod = bloomPeriod;
+    }
+
+    public String getPropogateByRoot() {
+        return propogateByRoot;
+    }
+
+    public void setPropogateByRoot(String propogateByRoot) {
+        this.propogateByRoot = propogateByRoot;
+    }
+
+    public String getPropogateByBulbs() {
+        return propogateByBulbs;
+    }
+
+    public void setPropogateByBulbs(String propogateByBulbs) {
+        this.propogateByBulbs = propogateByBulbs;
+    }
+
+    public String getPropogateByContainer() {
+        return propogateByContainer;
+    }
+
+    public void setPropogateByContainer(String propogateByContainer) {
+        this.propogateByContainer = propogateByContainer;
+    }
+
+    public String getPropogateByCorms() {
+        return propogateByCorms;
+    }
+
+    public void setPropogateByCorms(String propogateByCorms) {
+        this.propogateByCorms = propogateByCorms;
+    }
+
+    public String getPropogateByCutting() {
+        return propogateByCutting;
+    }
+
+    public void setPropogateByCutting(String propogateByCutting) {
+        this.propogateByCutting = propogateByCutting;
+    }
+
+    public String getPropogateBySeed() {
+        return propogateBySeed;
+    }
+
+    public void setPropogateBySeed(String propogateBySeed) {
+        this.propogateBySeed = propogateBySeed;
+    }
+
+    public String getPropogateBySood() {
+        return propogateBySood;
+    }
+
+    public void setPropogateBySood(String propogateBySood) {
+        this.propogateBySood = propogateBySood;
+    }
+
+    public String getPropogateBySprings() {
+        return propogateBySprings;
+    }
+
+    public void setPropogateBySprings(String propogateBySprings) {
+        this.propogateBySprings = propogateBySprings;
+    }
+
+    public String getPropogateByTubers() {
+        return propogateByTubers;
+    }
+
+    public void setPropogateByTubers(String propogateByTubers) {
+        this.propogateByTubers = propogateByTubers;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public String getShadeTolerance() {
+        return shadeTolerance;
+    }
+
+    public void setShadeTolerance(String shadeTolerance) {
+        this.shadeTolerance = shadeTolerance;
+    }
+
+    public String getFruitPeriod() {
+        return fruitPeriod;
+    }
+
+    public void setFruitPeriod(String fruitPeriod) {
+        this.fruitPeriod = fruitPeriod;
+    }
+
+}
