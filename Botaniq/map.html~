@@ -226,27 +226,24 @@
         setMarkers(map);
 	
 	var polygonArray = [
-		[rosariumSectionMap, rosariumCoords, '#0ea303', 47.1835079877288, 27.554455712966956],
-		[ornamentalaSectionMap, ornamentalaCoords, '#0e04e5', 47.187766274826224, 27.556236699752844], 
-		[dendrariumSectionMap, dendrariumCoords, '#00fab3', 47.18266212291489, 27.55213828437809], 
-		[planteUtileSectionMap, planteUtileCoords, '#ddf907', 47.1845871749933, 27.554026559524573],
-		[biologicaSectionMap, biologicaCoords, '#f6b200', 47.18624966379308, 27.554455712966956], 
-		[silvostepaSectionMap, silvostepaCoords, '#7b38d3', 47.191091001229736, 27.552009538345374], 
-		[florasiVegetatiaSectionMap, florasiVegetatiaCoords, '#d507a8', 47.18560800761904, 27.548232988052405], 
-		[complexuldeSereSectionMap, complexuldeSereCoords, '#ee0505', 47.18658507188804, 27.55688042991642], 
-		[fitogeograficaSectionMap, fitogeograficaCoords, '#8e0000', 47.18890370466426, 27.553425744705237], 
-		[sistematicaSectionMap, sistematicaCoords, '#8e0000', 47.18501009374856, 27.5563547169495]
+		[rosariumSectionMap, rosariumCoords, '#0ea303', 47.1835079877288, 27.554455712966956, 19],
+		[ornamentalaSectionMap, ornamentalaCoords, '#0e04e5', 47.187766274826224, 27.556236699752844, 18], 
+		[dendrariumSectionMap, dendrariumCoords, '#00fab3', 47.18266212291489, 27.55213828437809, 17], 
+		[planteUtileSectionMap, planteUtileCoords, '#ddf907', 47.1845871749933, 27.554026559524573, 19],
+		[biologicaSectionMap, biologicaCoords, '#f6b200', 47.18624966379308, 27.554455712966956, 18], 
+		[silvostepaSectionMap, silvostepaCoords, '#7b38d3', 47.191091001229736, 27.552009538345374, 18], 
+		[florasiVegetatiaSectionMap, florasiVegetatiaCoords, '#d507a8', 47.18560800761904, 27.548232988052405, 17], 
+		[complexuldeSereSectionMap, complexuldeSereCoords, '#ee0505', 47.18658507188804, 27.55688042991642, 19], 
+		[fitogeograficaSectionMap, fitogeograficaCoords, '#8e0000', 47.18890370466426, 27.553425744705237, 18], 
+		[sistematicaSectionMap, sistematicaCoords, '#8e0000', 47.18501009374856, 27.5563547169495, 18]
 	];
 	var addListenerOnPolygon = function(polygon) {
 	  google.maps.event.addListener(polygon, 'click', function (event) {
-		map.setZoom(17);	
+		map.setZoom(this.zoom);	
 		map.setCenter(polygon.position);
 		polygon.setMap(null);
 	  });
-	  google.maps.event.addListener(polygon, 'mouseover', function (event) {
-		map.getTitle(this.title);
-		polygon.setVisible(true);
-	  });
+
 	}
 	for (var i = 0; i < polygonArray.length; i++) {
 		var pol = polygonArray[i];
@@ -256,6 +253,7 @@
 		paths: pol[1],
 		fillColor: pol[2],
 		strokeColor: pol[2],
+		zoom: pol[5],
 		map: map
 	   });
 	   p.setMap(map);
@@ -266,7 +264,7 @@
 	
 	var trees = [
 	  [1, 47.18637361920545, 27.55769313924793, 'Metasequoia_glyptostroboides', '<img src="images/Sistematica/metasequoia_glytostroboides_Small.jpg">', 18],	
-	  [2, 47.18591425357872, 27.556515649490393, 'Thuja_occidentalis', '<img src="images/Sistematica/thuja_occidentalis_fastigiata1_Small.jpg">', 20],
+	  [2, 47.18591425357872, 27.556515649490393, 'Thuja_occidentalis', '<img src="images/Sistematica/thuja_occidentalis_fastigiata_Small.jpg">', 20],
 	  [3, 47.18581217178845, 27.557113782100714, 'Buxus_sempervirens', '<img src="images/Sistematica/buxus_sempervirens_Small.jpg">', 19],
 	  [4, '47.18533457223351', '27.55513699405674', 'Quercus_ilex', '<img src="images/Sistematica/quercus_ilex_Small.jpg">', 17],
 	  [6, '47.1867965237283', '27.55711646430973', 'Ficus_deltoidea', '<img src="images/ComplexulDeSere/ficus_deltoidea_Small.jpg">', 17],

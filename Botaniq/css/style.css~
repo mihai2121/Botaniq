@@ -58,9 +58,9 @@ height:1000px;}
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption { 
     -webkit-animation-name: zoom;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 2s;
     animation-name: zoom;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
 }
 
 @-webkit-keyframes zoom {
@@ -280,84 +280,11 @@ ul#menu li:hover a
   width: 210px;
   padding: 0;}
 
-#plants_search {
-  width: 940px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-#menu_tab {
-margin-top:10px;
-margin-left:52px;
-float: center
-}
-
-#infoPlant {
-  height: 50%;	
-}
-
-#button_search {
-  width: 100%;
-}
-#search_bar {
-height: 30px;
-font-size: 20px;
-}
-
-
-.button {
-    position: relative;
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 10px;
-    margin-left: 10px;
-    font-size: 18px;
-    color: #FFFFFF;
-    padding: 10px;
-    width: 120px;
-    text-align: center;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.button:after {
-    content: "";
-    background: #90EE90;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px!important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s
-}
-
-.button:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-}
-.input[type=text] {
-    width: 130px;
-    height: 10px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-input[type=text]:focus {
-    width: 50%;
-}
 .sidebar
 { float: left;
   width: 190px;
   padding-left: 10px;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px;}
 
 .sidebar_item
 { font: normal 100% Arial, Helvetica, sans-serif;
@@ -374,7 +301,7 @@ input[type=text]:focus {
 { color: #1d1d1d;}
 
 #content
-{ width: 900px;
+{ width: 680px;
   margin: 0 0 20px 10px;
   float: left;}
 
@@ -391,10 +318,9 @@ input[type=text]:focus {
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;}
-
+  
 .content_container
-{ width: 900px;
-  font: normal 200% Arial, Helvetica, sans-serif;
+{ width: 320px;
   padding: 5px;
   margin-right: 10px;
   float: left;}
@@ -436,7 +362,7 @@ input[type=text]:focus {
  
 #footer_container
 { height: 60px;
-  margin-top: 5%;
+  margin-top: 30px;
   background: #144800;
   background: -moz-linear-gradient(#227412, #144800);
   background: -o-linear-gradient(#227412, #144800);

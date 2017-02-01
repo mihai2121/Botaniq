@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
 <head>
-  <title>ARaynorDesign Template</title>
+  <title>Botaniq</title>
   <meta name="description" content="free website template" />
   <meta name="keywords" content="enter your keywords here" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -10,6 +10,78 @@
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/image_slide.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<style>
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+</style>
 </head>
 
 <body>
@@ -38,64 +110,125 @@
         </ul>
       </div><!--close menubar-->	
 	</div><!--close menu_container-->	
-    
-  <div id="site_content">   
+    <div id="plants_search">
+	<div id="menu_tab">
+<button class="button" onclick="showDiv()" value="Alphabetical">Alphabetical</button>
+<button class="button" onclick="showDiv()" value="Division">Division</button>
+<button class="button" onclick="showDiv()" value="Class">Class</button>
+<button class="button" onclick="showDiv()" value="Order">Order</button>
+<button class="button" onclick="showDiv()" value="Family">Family</button>
+<button class="button" onclick="showDiv()" value="Genus">Genus</button>
+	</div>
+		</div>
+	<div id="site_content">     
+	  <div class="content_container">
+		<div id="welcomeDiv" class="answer_list" > 
+		   <div id="button_search">
+			<h8>Enter a name, common name or type of plant:</h8><br>
+			<input id="search_bar" type="text" name="search" placeholder="Search..">
+			<div id="infoPlant">
+	<table>
+	    <tr>
+		<th><h7>Rosa Banksiae</h7></th>
+		<th><h7>Rosa Chinensis</h7></th>
+		<th><h7>Rosa Damascena</h7></th>
+		<th><h7>Rosa Minutifolia</h7></th>
+		<th><h7>Abies Alba</h7></th>
+	    </tr>
+	    <tr>
+		<th><img id="myImg" src="images/Rosarium/rosa_banksiae.jpg" onclick="onClick(this)" alt="Rosa Banksiae" width="150px" height="150px"></img><br>
+<button id="myBtn" onclick="onClick(this)">Click image</button></th>
+		<th><img id="myImg" src="images/Rosarium/rosa_chinensis.jpg" onclick="onClick(this)" alt="Rosa Chinensis" width="150px" height="150px"></img><br>
+<button id="myBtn" onclick="onClick(this)">Click image</button></th>
+		<th><img id="myImg" src="images/Rosarium/rosa_damascena.jpg" onclick="onClick(this)" alt="Rosa Damascena" width="150px" height="150px"></img><br>
+<button id="myBtn" onclick="onClick(this)">Click image</button></th>
+		<th><img id="myImg" src="images/Rosarium/rosa_minutifolia.jpg" onclick="onClick(this)" alt="Rosa Minutifolia" width="150px" height="150px"></img><br>
+<button id="myBtn" onclick="onClick(this)">Click image</button></th>
+		<th><img id="myImg" src="images/Silvostepa/abies_alba.jpg" onclick="onClick(this)" alt="Abies Alba" width="150px" height="150px"></img><br>
+<button id="myBtn" onclick="onClick(this)">Click image</button></th>
+	    </tr><br>
+	     <tr>
+		<th><h7>Carex Riparia</h7></th>
+		<th><h7>Carpinus Betulus</h7></th>
+		<th><h7>Glyceria Fluitans</h7></th>
+		<th><h7>Iris Brandzae</h7></th>
+		<th><h7>Ulmus Minor</h7></th>
+	    </tr>
+	    <tr>
+		<th><img id="myImg" src="images/Silvostepa/carex_riparia.jpg" onclick="onClick(this)" alt="Carex Riparia" width="150px" height="150px"></img><br>
+<button id="myBtn" onclick="onClick(this)"><span>Click image</span></button></th>
+		<th><img id="myImg" src="images/Silvostepa/carpinus_betulus.jpg" onclick="onClick(this)" alt="Carpinus Betulus" width="150px" height="150px"></img><br>
+<button id="myBtn" onclick="onClick(this)">Click image</button></th>
+		<th><img id="myImg" src="images/Silvostepa/glyceria_fluitans.jpg" onclick="onClick(this)" alt="Glyceria Fluitans" width="150px" height="150px"></img><br>
+<button id="myBtn" onclick="onClick(this)">Click image</button></th>
+		<th><img id="myImg" src="images/Silvostepa/iris_brandzae.jpg" onclick="onClick(this)" alt="Iris Brandzae" width="150px" height="150px"></img><br>
+<button id="myBtn" onclick="onClick(this)">Click image</button></th>
+		<th><img id="myImg" src="images/Silvostepa/ulmus_minor.jpg" onclick="onClick(this)" alt="Ulmus Minor" width="150px" height="150px"></img><br>
+<button id="myBtn" onclick="onClick(this)">Click image</button></th>
+	    </tr> 
+	</table>
 
-    <div class="sidebar_container">       
-    <div class="sidebar">
-          <div class="sidebar_item">
-            <h2>Contact</h2>
-            <p>IAȘI, Dumbrava Roșie
-St. No. 7-9
-Tel: 0232/201373
-Fax: 0232/201385
-E-mail: gbot.is@uaic.ro</p>
-          </div><!--close sidebar_item--> 
-        </div><!--close sidebar-->        
-    <div class="sidebar">
-          <div class="sidebar_item">
-            <h2>Hours & Admissions:</h2>
-            <h3>Visiting programme: 9 - 16</h3>
-            <p>
-Admission is free. (No pets allowed, except for service animals)</p>         
-      </div><!--close sidebar_item--> 
-        </div><!--close sidebar-->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Plant Name</h2>
+    </div>
+    <div class="modal-body">
+      <p>Characteristics</p>
+    </div> 
+  </div>
+  <div id="caption"></div>
 
-       </div><!--close sidebar_container--> 
-	
-      <ul class="slideshow">
-        <li class="show"><img width="680" height="250" src="images/home_1.jpg" alt="&quot;Enter your caption here&quot;" /></li>
-        <li><img width="680" height="250" src="images/home_2.jpg" alt="&quot;Enter your caption here&quot;" /></li>
-      </ul>   
-        
-	  <div id="content">
-        <div class="content_item">
-          <h2>Our Work</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper, massa eu iaculis imperdiet, turpis nunc aliquam augue, eget condimentum lectus velit vitae urna. Curabitur eu feugiat erat. Nam et arcu sit amet magna facilisis accumsan vel nec mauris. Vivamus interdum adipiscing molestie. Vestibulum sollicitudin massa eget turpis cursus eget ullamcorper odio pharetra. Sed dictum lacus sed erat molestie id aliquet enim vestibulum.</p>
-		    <div class="content_container">
-		      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim. Aliquam facilisis neque non nunc posuere eget volutpat metus tincidunt.</p>
-		    	<div class="button_small">
-		        <a href="#">Read more</a>
-		      </div><!--close button_small-->
-		    </div><!--close content_container-->
-            <div class="content_container">
-		      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim. Aliquam facilisis neque non nunc posuere eget volutpat metus tincidunt.</p>          
-		    	<div class="button_small">
-		        <a href="#">Read more</a>
-		        </div><!--close button_small-->		  
-		    </div><!--close content_container-->				
-		</div><!--close content_item-->
-      </div><!--close content-->   
-	</div><!--close site_content-->
+</div>
+
+</div>
+</div>
+</div>
+
+</div><!--close content_container-->
+</div><!--close site_content-->
+
 
  
-  </div><!--close main-->
-  
+</div><!--close main-->
+ 
+
   <div id="footer_container">
     <div id="footer">
-            Botaniq 2017
+	Botaniq 2017    
     </div><!--close footer-->  
   </div><!--close footer_container--> 
-  
+
+<script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var captionText = document.getElementById("caption");
+function onClick(event) { 
+    document.getElementById("myBtn");
+    document.getElementById("myModal").style.display = "block";
+    captionText.innerHTML = element.value;
+
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<script>
+/*function showDiv(){
+    document.getElementById('welcomeDiv').style.display = "block";
+}*/
+</script>
   </body>
 </html>
